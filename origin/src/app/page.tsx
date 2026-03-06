@@ -7,6 +7,7 @@ import { useState, useRef, useEffect, useMemo, useCallback } from "react";
 import ReactMarkdown from "react-markdown";
 import { useSectionViewer } from "@/lib/section-viewer";
 import { stt, createTTS } from "@/lib/voice";
+import Link from "next/link";
 
 // ─── Constants ────────────────────────────────────────────────────────────
 
@@ -98,27 +99,28 @@ function ChatUI() {
     holdingRef.current = true;
     setHolding(true);
 
-    if (voice.mode === "speaking") {
+    // Always interrupt first if not idle/listening — kills any active TTS
+    if (voice.mode === "speaking" || voice.mode === "thinking") {
       voice.interrupt();
-      // After interrupt, mode goes back to listening — unmute so user can speak
-      setTimeout(() => { if (holdingRef.current) voice.unmute(); }, 50);
-    } else {
-      voice.unmute();
     }
+    // Unmute mic so STT receives audio while user holds
+    voice.unmute();
   }, [voice]);
 
-  // Hold-to-talk: release → commit + mute
+  // Hold-to-talk: release → mute immediately, then commit
   const holdEnd = useCallback(() => {
     if (!holdingRef.current) return;
     holdingRef.current = false;
     setHolding(false);
 
-    if (voice.isActive && voice.mode === "listening") {
+    if (!voice.isActive) return;
+
+    // Mute FIRST to prevent any TTS echo or ambient audio
+    // from reaching STT after we commit
+    voice.mute();
+
+    if (voice.mode === "listening") {
       voice.commitTurn();
-      setTimeout(() => voice.mute(), 100);
-    } else {
-      // If not in listening mode (e.g. just interrupted), just mute
-      if (voice.isActive) voice.mute();
     }
   }, [voice]);
 
@@ -237,9 +239,12 @@ function ChatUI() {
               Oracle
             </span>
           </div>
-          <span className="font-mono text-[9px] text-dterminal tracking-widest uppercase opacity-80">
-            by dterminal
-          </span>
+          <Link href={"https://glove.dterminal.net"} target="_blank" >
+            <span className="font-mono text-[9px] text-dterminal tracking-widest uppercase opacity-80">
+              Built with Glove
+            </span>
+          </Link>
+
         </div>
         <div className="flex items-center gap-3">
           {/* {busy && (
@@ -251,7 +256,7 @@ function ChatUI() {
             </div>
           )} */}
           <div className="font-mono text-[9px] text-text-muted tracking-widest uppercase">
-            VASP Act &middot; Kenya &middot; No. 20 of 2025
+            VASP Act &middot;
           </div>
         </div>
       </header>
@@ -416,11 +421,11 @@ function ChatUI() {
                 {holding ? "Recording..." : "Hold to talk"}
               </button>
 
-              {/* Interrupt button — shown while Oracle speaks */}
-              {voice.mode === "speaking" && (
+              {/* Interrupt button — shown while Oracle speaks or thinking */}
+              {(voice.mode === "speaking" || voice.mode === "thinking") && (
                 <button
                   type="button"
-                  onClick={voice.interrupt}
+                  onClick={() => { voice.mute(); voice.interrupt(); }}
                   className="flex items-center justify-center gap-2 py-3 px-5 rounded-lg font-mono text-[12px] tracking-wider uppercase bg-surface border border-oracle/50 text-oracle hover:bg-oracle/10 transition-all active:scale-[0.98]"
                   aria-label="Interrupt"
                 >
@@ -845,7 +850,7 @@ function WelcomeScreen({ onSuggest }: { onSuggest: (q: string) => void }) {
           Oracle
         </h1>
         <p className="font-mono text-[11px] text-text-muted tracking-wider uppercase mb-8">
-          VASP Act Research Agent &middot; Catalog-Driven &middot; No RAG
+          VASP Act Research Agent &middot; Catalog-Driven &middot;
         </p>
         <p className="text-[15px] text-text-secondary leading-relaxed max-w-lg">
           Ask questions about Kenya&apos;s{" "}
