@@ -1,10 +1,12 @@
 "use client";
 
 import { useGlove } from "glove-react";
+import { useGloveVoice } from "glove-react/voice";
 import { Providers } from "./providers";
-import { useState, useRef, useEffect, useMemo } from "react";
+import { useState, useRef, useEffect, useMemo, useCallback } from "react";
 import ReactMarkdown from "react-markdown";
 import { useSectionViewer } from "@/lib/section-viewer";
+import { stt, createTTS } from "@/lib/voice";
 
 // ─── Constants ────────────────────────────────────────────────────────────
 
@@ -48,10 +50,75 @@ function ChatUI() {
     sendMessage,
     renderSlot,
     renderToolResult,
+    runnable,
   } = useGlove();
+
+  const voice = useGloveVoice({
+    runnable,
+    voice: { stt, createTTS, turnMode: "manual" },
+  });
+
   const [input, setInput] = useState("");
+  const [holding, setHolding] = useState(false);
   const scrollRef = useRef<HTMLDivElement>(null);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
+  const holdingRef = useRef(false);
+
+  // Hold-to-talk: start recording
+  const holdStart = useCallback(async () => {
+    if (holdingRef.current) return;
+    holdingRef.current = true;
+    setHolding(true);
+
+    // If Oracle is speaking, interrupt first
+    if (voice.mode === "speaking") {
+      voice.interrupt();
+      return;
+    }
+
+    if (!voice.isActive) {
+      await voice.start();
+      // Pipeline starts unmuted — mic is live
+    } else {
+      voice.unmute();
+    }
+  }, [voice]);
+
+  // Hold-to-talk: release → commit + mute
+  const holdEnd = useCallback(() => {
+    if (!holdingRef.current) return;
+    holdingRef.current = false;
+    setHolding(false);
+
+    if (voice.isActive && voice.mode === "listening") {
+      voice.commitTurn();
+      // Mute after a small delay so STT flush completes
+      setTimeout(() => voice.mute(), 100);
+    }
+  }, [voice]);
+
+  // Desktop: spacebar hold-to-talk (only when textarea not focused)
+  useEffect(() => {
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (e.code !== "Space" || e.repeat) return;
+      // Don't hijack spacebar when typing in the textarea
+      if (document.activeElement === textareaRef.current) return;
+      e.preventDefault();
+      holdStart();
+    };
+    const onKeyUp = (e: KeyboardEvent) => {
+      if (e.code !== "Space") return;
+      if (document.activeElement === textareaRef.current) return;
+      e.preventDefault();
+      holdEnd();
+    };
+    window.addEventListener("keydown", onKeyDown);
+    window.addEventListener("keyup", onKeyUp);
+    return () => {
+      window.removeEventListener("keydown", onKeyDown);
+      window.removeEventListener("keyup", onKeyUp);
+    };
+  }, [holdStart, holdEnd]);
 
   // Index slots by toolCallId for O(1) lookup during timeline rendering
   const slotsByToolCallId = useMemo(() => {
@@ -270,6 +337,43 @@ function ChatUI() {
         )}
       </div>
 
+      {/* ── Voice transcript overlay (shown when holding) ── */}
+      {(holding || voice.mode === "speaking" || voice.mode === "thinking") && (
+        <div className="border-t border-oracle/30 bg-surface/90 backdrop-blur-sm px-4 sm:px-6 py-3 shrink-0">
+          <div className="max-w-3xl mx-auto">
+            <div className="flex items-center gap-3 font-mono text-[13px] min-h-[24px]">
+              {holding && (
+                <>
+                  <VoicePulse />
+                  <span className={voice.transcript ? "text-text-primary" : "text-text-muted"}>
+                    {voice.transcript || "Listening..."}
+                  </span>
+                </>
+              )}
+              {!holding && voice.mode === "thinking" && (
+                <>
+                  <div className="oracle-spinner" />
+                  <span className="text-text-muted">Processing your request...</span>
+                </>
+              )}
+              {!holding && voice.mode === "speaking" && (
+                <>
+                  <VoiceSpeaking />
+                  <span className="text-oracle">Oracle is speaking</span>
+                  <button
+                    type="button"
+                    onClick={voice.interrupt}
+                    className="ml-auto font-mono text-[10px] text-text-muted hover:text-oracle tracking-wider uppercase transition-colors"
+                  >
+                    Interrupt
+                  </button>
+                </>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* ── Input bar ── */}
       <div className="border-t border-border bg-surface/80 backdrop-blur-sm px-4 sm:px-6 py-3 shrink-0">
         <div className="max-w-3xl mx-auto flex items-end gap-2 sm:gap-3">
@@ -306,11 +410,35 @@ function ChatUI() {
               </svg>
             )}
           </button>
+
+          {/* Hold-to-talk mic button (mobile: press and hold) */}
+          <button
+            type="button"
+            onPointerDown={(e) => { e.preventDefault(); holdStart(); }}
+            onPointerUp={holdEnd}
+            onPointerLeave={holdEnd}
+            onContextMenu={(e) => e.preventDefault()}
+            className={`shrink-0 self-end size-[42px] flex items-center justify-center border rounded-lg transition-all active:scale-[0.98] select-none touch-none ${
+              holding
+                ? "border-oracle bg-oracle/20 text-oracle shadow-lg shadow-oracle/20"
+                : voice.mode === "speaking"
+                  ? "border-oracle/50 bg-oracle-glow text-oracle animate-pulse"
+                  : "border-border text-text-muted hover:text-oracle hover:border-oracle/50 hover:bg-oracle-glow"
+            }`}
+            aria-label="Hold to talk"
+          >
+            <MicIcon />
+          </button>
         </div>
         <div className="max-w-3xl mx-auto mt-1 text-center sm:text-right">
           <span className="font-mono text-[9px] text-text-muted tracking-wider hidden sm:inline">
-            Enter to send · Shift+Enter for new line
+            Enter to send · Hold Space to talk
           </span>
+          {voice.error && (
+            <span className="font-mono text-[9px] text-red-400 tracking-wider ml-3">
+              {voice.error.message}
+            </span>
+          )}
         </div>
       </div>
     </div>
@@ -452,6 +580,40 @@ function SynthesizingIndicator() {
           <div className="h-2 rounded skeleton-shimmer w-[75%]" />
         </div>
       </div>
+    </div>
+  );
+}
+
+// ─── Voice Components ─────────────────────────────────────────────────────
+
+function MicIcon() {
+  return (
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+      <rect x="5.5" y="1.5" width="5" height="9" rx="2.5" stroke="currentColor" strokeWidth="1.5" />
+      <path d="M3 7.5C3 10.26 5.24 12.5 8 12.5C10.76 12.5 13 10.26 13 7.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+      <line x1="8" y1="12.5" x2="8" y2="14.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+    </svg>
+  );
+}
+
+
+function VoicePulse() {
+  return (
+    <div className="relative flex items-center justify-center w-4 h-4 shrink-0">
+      <div className="absolute w-4 h-4 rounded-full bg-oracle/30 animate-ping" />
+      <div className="w-2 h-2 rounded-full bg-oracle" />
+    </div>
+  );
+}
+
+function VoiceSpeaking() {
+  return (
+    <div className="flex items-center gap-0.5 h-4 shrink-0">
+      <div className="w-0.5 bg-oracle rounded-full animate-bounce h-2 [animation-delay:0ms]" />
+      <div className="w-0.5 bg-oracle rounded-full animate-bounce h-3 [animation-delay:150ms]" />
+      <div className="w-0.5 bg-oracle rounded-full animate-bounce h-4 [animation-delay:300ms]" />
+      <div className="w-0.5 bg-oracle rounded-full animate-bounce h-3 [animation-delay:150ms]" />
+      <div className="w-0.5 bg-oracle rounded-full animate-bounce h-2 [animation-delay:0ms]" />
     </div>
   );
 }
