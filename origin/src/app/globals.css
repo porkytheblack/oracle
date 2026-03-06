@@ -1,0 +1,290 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #0A0A0A;
+  --color-surface: #111111;
+  --color-surface-2: #161616;
+  --color-surface-3: #1C1C1C;
+  --color-border: #222222;
+  --color-border-light: #2A2A2A;
+
+  --color-oracle: #7C3AFF;
+  --color-oracle-dim: #5B21B6;
+  --color-oracle-glow: rgba(124,58,255,0.15);
+  --color-oracle-glow-strong: rgba(124,58,255,0.3);
+
+  --color-dterminal: #FF6B2B;
+  --color-dterminal-dim: rgba(255,107,43,0.1);
+
+  --color-text-primary: #F0F0F0;
+  --color-text-secondary: #888888;
+  --color-text-muted: #444444;
+  --color-text-code: #C4B5FD;
+
+  --color-green: #4ADE80;
+  --color-yellow: #FBBF24;
+
+  --font-mono: 'JetBrains Mono', monospace;
+  --font-sans: 'Space Grotesk', sans-serif;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #2A2A2A #111111;
+}
+
+::selection {
+  background: rgba(124, 58, 255, 0.3);
+  color: #F0F0F0;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text-primary);
+  font-family: var(--font-sans);
+}
+
+/* ===== Animations ===== */
+
+/* Shimmer effect for skeleton loaders */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+/* Gentle pulse for the Oracle glow ring */
+@keyframes oracle-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(124, 58, 255, 0.4); }
+  50% { box-shadow: 0 0 0 6px rgba(124, 58, 255, 0); }
+}
+
+/* Typing cursor blink */
+@keyframes cursor-blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+/* Fade-in for new messages */
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Spinner rotation */
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Dots animation for loading text */
+@keyframes loading-dots {
+  0%, 20% { content: ''; }
+  40% { content: '.'; }
+  60% { content: '..'; }
+  80%, 100% { content: '...'; }
+}
+
+/* Step progress bar fill */
+@keyframes progress-fill {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+/* Skeleton shimmer utility */
+.skeleton-shimmer {
+  background: linear-gradient(
+    90deg,
+    var(--color-surface-2) 25%,
+    var(--color-surface-3) 50%,
+    var(--color-surface-2) 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.8s ease-in-out infinite;
+}
+
+/* Oracle spinner ring */
+.oracle-spinner {
+  width: 16px;
+  height: 16px;
+  border: 2px solid var(--color-border-light);
+  border-top-color: var(--color-oracle);
+  border-radius: 50%;
+  animation: spin-slow 0.8s linear infinite;
+}
+
+/* Oracle pulse dot */
+.oracle-pulse-dot {
+  animation: oracle-pulse 1.5s ease-in-out infinite;
+}
+
+/* Typing cursor */
+.typing-cursor {
+  animation: cursor-blink 0.8s step-end infinite;
+}
+
+/* Fade-in utility */
+.animate-fade-in {
+  animation: fade-in-up 0.3s ease-out both;
+}
+
+/* Progress bar animation */
+.progress-bar-fill {
+  animation: progress-fill 2s ease-out forwards;
+}
+
+/* ===== Chat message transitions ===== */
+.message-enter {
+  animation: fade-in-up 0.3s ease-out both;
+}
+
+/* ===== Input focus glow ===== */
+.input-glow:focus {
+  box-shadow: 0 0 0 1px var(--color-oracle-dim), 0 0 12px rgba(124, 58, 255, 0.1);
+}
+
+/* ===== Markdown styling inside agent responses ===== */
+.oracle-prose h3 {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.oracle-prose p {
+  margin-bottom: 8px;
+  line-height: 1.7;
+}
+
+.oracle-prose ul, .oracle-prose ol {
+  padding-left: 20px;
+  margin-bottom: 8px;
+}
+
+.oracle-prose li {
+  margin-bottom: 4px;
+  line-height: 1.6;
+}
+
+.oracle-prose strong {
+  color: var(--color-text-primary);
+  font-weight: 500;
+}
+
+.oracle-prose code {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--color-text-code);
+  background: var(--color-surface-2);
+  padding: 1px 5px;
+  border: 1px solid var(--color-border);
+}
+
+/* ===== Section viewer animations ===== */
+@keyframes slide-in-right {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-up {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-in-right {
+  animation: slide-in-right 0.25s ease-out both;
+}
+
+.animate-slide-up {
+  animation: slide-up 0.25s ease-out both;
+}
+
+/* ===== Source card horizontal scroll ===== */
+.source-card-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-border-light) transparent;
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-type: x mandatory;
+}
+
+.source-card-scroll::-webkit-scrollbar {
+  height: 4px;
+}
+
+.source-card-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.source-card-scroll::-webkit-scrollbar-thumb {
+  background: var(--color-border-light);
+  border-radius: 2px;
+}
+
+.source-card-scroll::-webkit-scrollbar-thumb:hover {
+  background: var(--color-text-muted);
+}
+
+.source-card-scroll > * {
+  scroll-snap-align: start;
+}
+
+/* ===== Source card hover ===== */
+.source-card {
+  transition: all 0.15s ease;
+}
+
+.source-card:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* ===== Suggestion card hover lift ===== */
+.suggestion-card {
+  transition: all 0.2s ease;
+}
+
+.suggestion-card:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* ===== Smooth scrollbar for chat ===== */
+.chat-scroll {
+  scroll-behavior: smooth;
+}
+
+.chat-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+
+.chat-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.chat-scroll::-webkit-scrollbar-thumb {
+  background: var(--color-border-light);
+  border-radius: 3px;
+}
+
+.chat-scroll::-webkit-scrollbar-thumb:hover {
+  background: var(--color-text-muted);
+}

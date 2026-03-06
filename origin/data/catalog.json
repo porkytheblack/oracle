@@ -1,0 +1,1192 @@
+[
+  {
+    "id": "vasp-s1",
+    "title": "Section 1 — Short title",
+    "source_ref": "Section 1",
+    "topics": [
+      "definitions",
+      "scope"
+    ],
+    "jurisdictions": [
+      "KE"
+    ],
+    "description": "Short title — under PRELIMINARY of the Virtual Asset Service Providers Act (Kenya).",
+    "keywords": [
+      "short",
+      "title",
+      "cited",
+      "virtual",
+      "asset",
+      "service",
+      "providers"
+    ],
+    "last_verified": "2025-11"
+  },
+  {
+    "id": "vasp-s2",
+    "title": "Section 2 — Interpretation",
+    "source_ref": "Section 2",
+    "topics": [
+      "definitions",
+      "scope"
+    ],
+    "jurisdictions": [
+      "KE"
+    ],
+    "description": "Interpretation — under PRELIMINARY of the Virtual Asset Service Providers Act (Kenya).",
+    "keywords": [
+      "virtual",
+      "asset",
+      "assets",
+      "digital",
+      "services",
+      "service",
+      "offering",
+      "authority"
+    ],
+    "last_verified": "2025-11"
+  },
+  {
+    "id": "vasp-s3",
+    "title": "Section 3 — Object of the Act",
+    "source_ref": "Section 3",
+    "topics": [
+      "definitions",
+      "scope"
+    ],
+    "jurisdictions": [
+      "KE"
+    ],
+    "description": "Object of the Act — under PRELIMINARY of the Virtual Asset Service Providers Act (Kenya).",
+    "keywords": [
+      "object",
+      "main",
+      "provide",
+      "legislative",
+      "framework",
+      "license",
+      "regulate",
+      "activities"
+    ],
+    "last_verified": "2025-11"
+  },
+  {
+    "id": "vasp-s4",
+    "title": "Section 4 — Application",
+    "source_ref": "Section 4",
+    "topics": [
+      "definitions",
+      "scope"
+    ],
+    "jurisdictions": [
+      "KE"
+    ],
+    "description": "Application — under PRELIMINARY of the Virtual Asset Service Providers Act (Kenya).",
+    "keywords": [
+      "virtual",
+      "purposes",
+      "digital",
+      "closed",
+      "ecosystem",
+      "asset",
+      "service",
+      "services"
+    ],
+    "last_verified": "2025-11"
+  },
+  {
+    "id": "vasp-s5",
+    "title": "Section 5 — Regulatory authorities",
+    "source_ref": "Section 5",
+    "topics": [
+      "governance",
+      "registration"
+    ],
+    "jurisdictions": [
+      "KE"
+    ],
+    "description": "Regulatory authorities — under DESIGNATION OF REGULATORY AUTHORITIES of the Virtual Asset Service Providers Act (Kenya).",
+    "keywords": [
+      "name",
+      "established",
+      "regulatory",
+      "authorities",
+      "capital",
+      "markets",
+      "kenya",
+      "public"
+    ],
+    "last_verified": "2025-11"
+  },
+  {
+    "id": "vasp-s6",
+    "title": "Section 6 — Functions of the relevant regulatory authorities",
+    "source_ref": "Section 6",
+    "topics": [
+      "governance",
+      "registration"
+    ],
+    "jurisdictions": [
+      "KE"
+    ],
+    "description": "Functions of the relevant regulatory authorities — under DESIGNATION OF REGULATORY AUTHORITIES of the Virtual Asset Service Providers Act (Kenya).",
+    "keywords": [
+      "relevant",
+      "authorities",
+      "virtual",
+      "asset",
+      "functions",
+      "regulatory",
+      "services",
+      "service"
+    ],
+    "last_verified": "2025-11"
+  },
+  {
+    "id": "vasp-s7",
+    "title": "Section 7 — Guiding principles of the relevant regulatory authorities",
+    "source_ref": "Section 7",
+    "topics": [
+      "governance",
+      "registration"
+    ],
+    "jurisdictions": [
+      "KE"
+    ],
+    "description": "Guiding principles of the relevant regulatory authorities — under DESIGNATION OF REGULATORY AUTHORITIES of the Virtual Asset Service Providers Act (Kenya).",
+    "keywords": [
+      "kenya",
+      "principles",
+      "relevant",
+      "regulatory",
+      "authorities",
+      "their",
+      "ensure",
+      "financial"
+    ],
+    "last_verified": "2025-11"
+  },
+  {
+    "id": "vasp-s8",
+    "title": "Section 8 — Eligibility",
+    "source_ref": "Section 8",
+    "topics": [
+      "licensing",
+      "registration"
+    ],
+    "jurisdictions": [
+      "KE"
+    ],
+    "description": "Eligibility — under LICENSING REQUIREMENT of the Virtual Asset Service Providers Act (Kenya).",
+    "keywords": [
+      "company",
+      "limited",
+      "shares",
+      "registered",
+      "companies",
+      "carry",
+      "business",
+      "eligibility"
+    ],
+    "last_verified": "2025-11"
+  },
+  {
+    "id": "vasp-s9",
+    "title": "Section 9 — Permissible activities",
+    "source_ref": "Section 9",
+    "topics": [
+      "licensing",
+      "registration"
+    ],
+    "jurisdictions": [
+      "KE"
+    ],
+    "description": "Permissible activities — under LICENSING REQUIREMENT of the Virtual Asset Service Providers Act (Kenya).",
+    "keywords": [
+      "activities",
+      "permissible",
+      "first",
+      "schedule",
+      "cabinet",
+      "secretary",
+      "consultation",
+      "relevant"
+    ],
+    "last_verified": "2025-11"
+  },
+  {
+    "id": "vasp-s10",
+    "title": "Section 10 — Application for a licence",
+    "source_ref": "Section 10",
+    "topics": [
+      "licensing",
+      "registration"
+    ],
+    "jurisdictions": [
+      "KE"
+    ],
+    "description": "Application for a licence — under LICENSING REQUIREMENT of the Virtual Asset Service Providers Act (Kenya).",
+    "keywords": [
+      "relevant",
+      "regulatory",
+      "authority",
+      "application",
+      "licence",
+      "applicant",
+      "requirements",
+      "satisfies"
+    ],
+    "last_verified": "2025-11"
+  },
+  {
+    "id": "vasp-s11",
+    "title": "Section 11 — Considerations for grant of licence",
+    "source_ref": "Section 11",
+    "topics": [
+      "licensing",
+      "registration"
+    ],
+    "jurisdictions": [
+      "KE"
+    ],
+    "description": "Considerations for grant of licence — under LICENSING REQUIREMENT of the Virtual Asset Service Providers Act (Kenya).",
+    "keywords": [
+      "applicant",
+      "service",
+      "virtual",
+      "asset",
+      "relevant",
+      "financial",
+      "grant",
+      "licence"
+    ],
+    "last_verified": "2025-11"
+  },
+  {
+    "id": "vasp-s12",
+    "title": "Section 12 — Conditions attaching to a licence",
+    "source_ref": "Section 12",
+    "topics": [
+      "licensing",
+      "registration"
+    ],
+    "jurisdictions": [
+      "KE"
+    ],
+    "description": "Conditions attaching to a licence — under LICENSING REQUIREMENT of the Virtual Asset Service Providers Act (Kenya).",
+    "keywords": [
+      "regulatory",
+      "relevant",
+      "authority",
+      "licence",
+      "licensee",
+      "conditions",
+      "virtual",
+      "asset"
+    ],
+    "last_verified": "2025-11"
+  },
+  {
+    "id": "vasp-s13",
+    "title": "Section 13 — Duration of a licence",
+    "source_ref": "Section 13",
+    "topics": [
+      "licensing",
+      "registration"
+    ],
+    "jurisdictions": [
+      "KE"
+    ],
+    "description": "Duration of a licence — under LICENSING REQUIREMENT of the Virtual Asset Service Providers Act (Kenya).",
+    "keywords": [
+      "issued",
+      "licence",
+      "duration",
+      "valid",
+      "date",
+      "expire",
+      "december",
+      "year"
+    ],
+    "last_verified": "2025-11"
+  },
+  {
+    "id": "vasp-s14",
+    "title": "Section 14 — Assignment and transfer of licence",
+    "source_ref": "Section 14",
+    "topics": [
+      "licensing",
+      "registration"
+    ],
+    "jurisdictions": [
+      "KE"
+    ],
+    "description": "Assignment and transfer of licence — under LICENSING REQUIREMENT of the Virtual Asset Service Providers Act (Kenya).",
+    "keywords": [
+      "licence",
+      "assignment",
+      "transfer",
+      "granted",
+      "transferred",
+      "assigned",
+      "without",
+      "prior"
+    ],
+    "last_verified": "2025-11"
+  },
+  {
+    "id": "vasp-s15",
+    "title": "Section 15 — Suspension, variation or revocation of licence",
+    "source_ref": "Section 15",
+    "topics": [
+      "licensing",
+      "registration"
+    ],
+    "jurisdictions": [
+      "KE"
+    ],
+    "description": "Suspension, variation or revocation of licence — under LICENSING REQUIREMENT of the Virtual Asset Service Providers Act (Kenya).",
+    "keywords": [
+      "licence",
+      "relevant",
+      "regulatory",
+      "authority",
+      "licensee",
+      "suspension",
+      "revocation",
+      "suspend"
+    ],
+    "last_verified": "2025-11"
+  },
+  {
+    "id": "vasp-s16",
+    "title": "Section 16 — Surrender of licence",
+    "source_ref": "Section 16",
+    "topics": [
+      "licensing",
+      "registration"
+    ],
+    "jurisdictions": [
+      "KE"
+    ],
+    "description": "Surrender of licence — under LICENSING REQUIREMENT of the Virtual Asset Service Providers Act (Kenya).",
+    "keywords": [
+      "surrender",
+      "licence",
+      "licensee",
+      "information",
+      "clients",
+      "relevant",
+      "regulatory",
+      "authority"
+    ],
+    "last_verified": "2025-11"
+  },
+  {
+    "id": "vasp-s17",
+    "title": "Section 17 — Register of licences",
+    "source_ref": "Section 17",
+    "topics": [
+      "licensing",
+      "registration"
+    ],
+    "jurisdictions": [
+      "KE"
+    ],
+    "description": "Register of licences — under LICENSING REQUIREMENT of the Virtual Asset Service Providers Act (Kenya).",
+    "keywords": [
+      "register",
+      "relevant",
+      "licences",
+      "regulatory",
+      "authority",
+      "licence",
+      "each",
+      "keep"
+    ],
+    "last_verified": "2025-11"
+  },
+  {
+    "id": "vasp-s18",
+    "title": "Section 18 — Fit and proper",
+    "source_ref": "Section 18",
+    "topics": [
+      "governance"
+    ],
+    "jurisdictions": [
+      "KE"
+    ],
+    "description": "Fit and proper — under GENERAL OBLIGATIONS FOR VIRTUAL ASSET SERVICE PROVIDERS of the Virtual Asset Service Providers Act (Kenya).",
+    "keywords": [
+      "relevant",
+      "regulatory",
+      "authority",
+      "proper",
+      "licensee",
+      "professional",
+      "subsection",
+      "take"
+    ],
+    "last_verified": "2025-11"
+  },
+  {
+    "id": "vasp-s19",
+    "title": "Section 19 — Registered office and activities of virtual asset service provider",
+    "source_ref": "Section 19",
+    "topics": [
+      "governance"
+    ],
+    "jurisdictions": [
+      "KE"
+    ],
+    "description": "Registered office and activities of virtual asset service provider — under GENERAL OBLIGATIONS FOR VIRTUAL ASSET SERVICE PROVIDERS of the Virtual Asset Service Providers Act (Kenya).",
+    "keywords": [
+      "office",
+      "activities",
+      "virtual",
+      "asset",
+      "service",
+      "provider",
+      "registered",
+      "maintain"
+    ],
+    "last_verified": "2025-11"
+  },
+  {
+    "id": "vasp-s20",
+    "title": "Section 20 — Business to be conducted in prudent manner",
+    "source_ref": "Section 20",
+    "topics": [
+      "governance"
+    ],
+    "jurisdictions": [
+      "KE"
+    ],
+    "description": "Business to be conducted in prudent manner — under GENERAL OBLIGATIONS FOR VIRTUAL ASSET SERVICE PROVIDERS of the Virtual Asset Service Providers Act (Kenya).",
+    "keywords": [
+      "business",
+      "licensee",
+      "relevant",
+      "prudent",
+      "manner",
+      "regulatory",
+      "authority",
+      "least"
+    ],
+    "last_verified": "2025-11"
+  },
+  {
+    "id": "vasp-s21",
+    "title": "Section 21 — Business to be conducted with integrity",
+    "source_ref": "Section 21",
+    "topics": [
+      "governance"
+    ],
+    "jurisdictions": [
+      "KE"
+    ],
+    "description": "Business to be conducted with integrity — under GENERAL OBLIGATIONS FOR VIRTUAL ASSET SERVICE PROVIDERS of the Virtual Asset Service Providers Act (Kenya).",
+    "keywords": [
+      "business",
+      "integrity",
+      "service",
+      "services",
+      "conducted",
+      "virtual",
+      "asset",
+      "provider"
+    ],
+    "last_verified": "2025-11"
+  },
+  {
+    "id": "vasp-s22",
+    "title": "Section 22 — Capital, solvency and insurance requirements",
+    "source_ref": "Section 22",
+    "topics": [
+      "governance"
+    ],
+    "jurisdictions": [
+      "KE"
+    ],
+    "description": "Capital, solvency and insurance requirements — under GENERAL OBLIGATIONS FOR VIRTUAL ASSET SERVICE PROVIDERS of the Virtual Asset Service Providers Act (Kenya).",
+    "keywords": [
+      "capital",
+      "solvency",
+      "insurance",
+      "requirements",
+      "virtual",
+      "asset",
+      "service",
+      "provider"
+    ],
+    "last_verified": "2025-11"
+  },
+  {
+    "id": "vasp-s23",
+    "title": "Section 23 — Conflict of interest",
+    "source_ref": "Section 23",
+    "topics": [
+      "governance"
+    ],
+    "jurisdictions": [
+      "KE"
+    ],
+    "description": "Conflict of interest — under GENERAL OBLIGATIONS FOR VIRTUAL ASSET SERVICE PROVIDERS of the Virtual Asset Service Providers Act (Kenya).",
+    "keywords": [
+      "licensee",
+      "interest",
+      "service",
+      "relevant",
+      "regulatory",
+      "authority",
+      "clients",
+      "conflict"
+    ],
+    "last_verified": "2025-11"
+  },
+  {
+    "id": "vasp-s24",
+    "title": "Section 24 — Additional requirements",
+    "source_ref": "Section 24",
+    "topics": [
+      "governance"
+    ],
+    "jurisdictions": [
+      "KE"
+    ],
+    "description": "Additional requirements — under GENERAL OBLIGATIONS FOR VIRTUAL ASSET SERVICE PROVIDERS of the Virtual Asset Service Providers Act (Kenya).",
+    "keywords": [
+      "virtual",
+      "asset",
+      "ensure",
+      "services",
+      "financial",
+      "take",
+      "reasonable",
+      "steps"
+    ],
+    "last_verified": "2025-11"
+  },
+  {
+    "id": "vasp-s25",
+    "title": "Section 25 — Ongoing notifications",
+    "source_ref": "Section 25",
+    "topics": [
+      "governance"
+    ],
+    "jurisdictions": [
+      "KE"
+    ],
+    "description": "Ongoing notifications — under GENERAL OBLIGATIONS FOR VIRTUAL ASSET SERVICE PROVIDERS of the Virtual Asset Service Providers Act (Kenya).",
+    "keywords": [
+      "licensee",
+      "relevant",
+      "regulatory",
+      "authority",
+      "where",
+      "provision",
+      "condition",
+      "business"
+    ],
+    "last_verified": "2025-11"
+  },
+  {
+    "id": "vasp-s26",
+    "title": "Section 26 — Material changes to business",
+    "source_ref": "Section 26",
+    "topics": [
+      "governance"
+    ],
+    "jurisdictions": [
+      "KE"
+    ],
+    "description": "Material changes to business — under GENERAL OBLIGATIONS FOR VIRTUAL ASSET SERVICE PROVIDERS of the Virtual Asset Service Providers Act (Kenya).",
+    "keywords": [
+      "change",
+      "licensee",
+      "relevant",
+      "regulatory",
+      "authority",
+      "material",
+      "business",
+      "subsection"
+    ],
+    "last_verified": "2025-11"
+  },
+  {
+    "id": "vasp-s27",
+    "title": "Section 27 — Ownership changes",
+    "source_ref": "Section 27",
+    "topics": [
+      "governance"
+    ],
+    "jurisdictions": [
+      "KE"
+    ],
+    "description": "Ownership changes — under GENERAL OBLIGATIONS FOR VIRTUAL ASSET SERVICE PROVIDERS of the Virtual Asset Service Providers Act (Kenya).",
+    "keywords": [
+      "licensee",
+      "shares",
+      "relevant",
+      "regulatory",
+      "authority",
+      "issued",
+      "ownership",
+      "subsection"
+    ],
+    "last_verified": "2025-11"
+  },
+  {
+    "id": "vasp-s28",
+    "title": "Section 28 — Cyber security measures",
+    "source_ref": "Section 28",
+    "topics": [
+      "governance"
+    ],
+    "jurisdictions": [
+      "KE"
+    ],
+    "description": "Cyber security measures — under GENERAL OBLIGATIONS FOR VIRTUAL ASSET SERVICE PROVIDERS of the Virtual Asset Service Providers Act (Kenya).",
+    "keywords": [
+      "cyber",
+      "security",
+      "measures",
+      "licensee",
+      "appropriate",
+      "effective",
+      "prescribed",
+      "provided"
+    ],
+    "last_verified": "2025-11"
+  },
+  {
+    "id": "vasp-s29",
+    "title": "Section 29 — Duty to prepare annual audited financial statements",
+    "source_ref": "Section 29",
+    "topics": [
+      "governance"
+    ],
+    "jurisdictions": [
+      "KE"
+    ],
+    "description": "Duty to prepare annual audited financial statements — under GENERAL OBLIGATIONS FOR VIRTUAL ASSET SERVICE PROVIDERS of the Virtual Asset Service Providers Act (Kenya).",
+    "keywords": [
+      "audited",
+      "financial",
+      "licensee",
+      "statements",
+      "relevant",
+      "regulatory",
+      "authority",
+      "auditor"
+    ],
+    "last_verified": "2025-11"
+  },
+  {
+    "id": "vasp-s30",
+    "title": "Section 30 — Appointment of chief executive officer",
+    "source_ref": "Section 30",
+    "topics": [
+      "governance"
+    ],
+    "jurisdictions": [
+      "KE"
+    ],
+    "description": "Appointment of chief executive officer — under GENERAL OBLIGATIONS FOR VIRTUAL ASSET SERVICE PROVIDERS of the Virtual Asset Service Providers Act (Kenya).",
+    "keywords": [
+      "chief",
+      "executive",
+      "officer",
+      "virtual",
+      "asset",
+      "service",
+      "provider",
+      "appoint"
+    ],
+    "last_verified": "2025-11"
+  },
+  {
+    "id": "vasp-s31",
+    "title": "Section 31 — Duty to protect customer assets",
+    "source_ref": "Section 31",
+    "topics": [
+      "governance"
+    ],
+    "jurisdictions": [
+      "KE"
+    ],
+    "description": "Duty to protect customer assets — under GENERAL OBLIGATIONS FOR VIRTUAL ASSET SERVICE PROVIDERS of the Virtual Asset Service Providers Act (Kenya).",
+    "keywords": [
+      "virtual",
+      "asset",
+      "assets",
+      "customer",
+      "meet",
+      "licence",
+      "holder",
+      "holdings"
+    ],
+    "last_verified": "2025-11"
+  },
+  {
+    "id": "vasp-s32",
+    "title": "Section 32 — Powers of relevant regulatory authority for AML/CFT/CPF purposes",
+    "source_ref": "Section 32",
+    "topics": [
+      "aml",
+      "reporting"
+    ],
+    "jurisdictions": [
+      "KE"
+    ],
+    "description": "Powers of relevant regulatory authority for AML/CFT/CPF purposes — under PREVENTION OF MONEY LAUNDERING, TERRORISM FINANCING AND PROLIFERATION FINANCING BY VIRTUAL ASSET SERVICE PROVIDERS of the Virtual Asset Service Providers Act (Kenya).",
+    "keywords": [
+      "virtual",
+      "asset",
+      "purposes",
+      "relevant",
+      "regulatory",
+      "authority",
+      "service",
+      "proceeds"
+    ],
+    "last_verified": "2025-11"
+  },
+  {
+    "id": "vasp-s33",
+    "title": "Section 33 — Penalties relating to AML/CFT/CPF violations",
+    "source_ref": "Section 33",
+    "topics": [
+      "aml",
+      "reporting",
+      "penalties"
+    ],
+    "jurisdictions": [
+      "KE"
+    ],
+    "description": "Penalties relating to AML/CFT/CPF violations — under PREVENTION OF MONEY LAUNDERING, TERRORISM FINANCING AND PROLIFERATION FINANCING BY VIRTUAL ASSET SERVICE PROVIDERS of the Virtual Asset Service Providers Act (Kenya).",
+    "keywords": [
+      "comply",
+      "penalties",
+      "relating",
+      "violations",
+      "director",
+      "officer",
+      "employer",
+      "agent"
+    ],
+    "last_verified": "2025-11"
+  },
+  {
+    "id": "vasp-s34",
+    "title": "Section 34 — Issuers of virtual asset offering",
+    "source_ref": "Section 34",
+    "topics": [
+      "governance"
+    ],
+    "jurisdictions": [
+      "KE"
+    ],
+    "description": "Issuers of virtual asset offering — under VIRTUAL ASSET OFFERING of the Virtual Asset Service Providers Act (Kenya).",
+    "keywords": [
+      "virtual",
+      "asset",
+      "offering",
+      "relevant",
+      "trading",
+      "regulatory",
+      "authority",
+      "application"
+    ],
+    "last_verified": "2025-11"
+  },
+  {
+    "id": "vasp-s35",
+    "title": "Section 35 — Compliance, inspection and investigation",
+    "source_ref": "Section 35",
+    "topics": [
+      "penalties"
+    ],
+    "jurisdictions": [
+      "KE"
+    ],
+    "description": "Compliance, inspection and investigation — under INVESTIGATION AND EXAMINATION of the Virtual Asset Service Providers Act (Kenya).",
+    "keywords": [
+      "compliance",
+      "investigation",
+      "relevant",
+      "regulatory",
+      "authority",
+      "virtual",
+      "asset",
+      "inspection"
+    ],
+    "last_verified": "2025-11"
+  },
+  {
+    "id": "vasp-s36",
+    "title": "Section 36 — Appointment or designation of examiner",
+    "source_ref": "Section 36",
+    "topics": [
+      "penalties"
+    ],
+    "jurisdictions": [
+      "KE"
+    ],
+    "description": "Appointment or designation of examiner — under INVESTIGATION AND EXAMINATION of the Virtual Asset Service Providers Act (Kenya).",
+    "keywords": [
+      "examiners",
+      "powers",
+      "appointment",
+      "designation",
+      "examiner",
+      "relevant",
+      "regulatory",
+      "authority"
+    ],
+    "last_verified": "2025-11"
+  },
+  {
+    "id": "vasp-s37",
+    "title": "Section 37 — Powers to access information",
+    "source_ref": "Section 37",
+    "topics": [
+      "penalties"
+    ],
+    "jurisdictions": [
+      "KE"
+    ],
+    "description": "Powers to access information — under INVESTIGATION AND EXAMINATION of the Virtual Asset Service Providers Act (Kenya).",
+    "keywords": [
+      "relevant",
+      "regulatory",
+      "authority",
+      "company",
+      "licensee",
+      "information",
+      "powers",
+      "require"
+    ],
+    "last_verified": "2025-11"
+  },
+  {
+    "id": "vasp-s38",
+    "title": "Section 38 — Additional powers",
+    "source_ref": "Section 38",
+    "topics": [
+      "penalties"
+    ],
+    "jurisdictions": [
+      "KE"
+    ],
+    "description": "Additional powers — under INVESTIGATION AND EXAMINATION of the Virtual Asset Service Providers Act (Kenya).",
+    "keywords": [
+      "relevant",
+      "authority",
+      "regulatory",
+      "investigation",
+      "specified",
+      "documents",
+      "notice",
+      "require"
+    ],
+    "last_verified": "2025-11"
+  },
+  {
+    "id": "vasp-s39",
+    "title": "Section 39 — Administrative enforcement action",
+    "source_ref": "Section 39",
+    "topics": [
+      "penalties"
+    ],
+    "jurisdictions": [
+      "KE"
+    ],
+    "description": "Administrative enforcement action — under ENFORCEMENT ACTIONS of the Virtual Asset Service Providers Act (Kenya).",
+    "keywords": [
+      "relevant",
+      "regulatory",
+      "action",
+      "authority",
+      "administrative",
+      "enforcement",
+      "licensee",
+      "take"
+    ],
+    "last_verified": "2025-11"
+  },
+  {
+    "id": "vasp-s40",
+    "title": "Section 40 — Criminal offences and penalties",
+    "source_ref": "Section 40",
+    "topics": [
+      "penalties"
+    ],
+    "jurisdictions": [
+      "KE"
+    ],
+    "description": "Criminal offences and penalties — under ENFORCEMENT ACTIONS of the Virtual Asset Service Providers Act (Kenya).",
+    "keywords": [
+      "exceeding",
+      "case",
+      "fine",
+      "million",
+      "shillings",
+      "commits",
+      "offence",
+      "liable"
+    ],
+    "last_verified": "2025-11"
+  },
+  {
+    "id": "vasp-s41",
+    "title": "Section 41 — Liability of individuals",
+    "source_ref": "Section 41",
+    "topics": [
+      "penalties"
+    ],
+    "jurisdictions": [
+      "KE"
+    ],
+    "description": "Liability of individuals — under ENFORCEMENT ACTIONS of the Virtual Asset Service Providers Act (Kenya).",
+    "keywords": [
+      "offence",
+      "licensee",
+      "contravention",
+      "liable",
+      "liability",
+      "individuals",
+      "where",
+      "against"
+    ],
+    "last_verified": "2025-11"
+  },
+  {
+    "id": "vasp-s42",
+    "title": "Section 42 — Confidentiality",
+    "source_ref": "Section 42",
+    "topics": [
+      "governance"
+    ],
+    "jurisdictions": [
+      "KE"
+    ],
+    "description": "Confidentiality — under MISCELLANEOUS PROVISIONS of the Virtual Asset Service Providers Act (Kenya).",
+    "keywords": [
+      "relevant",
+      "information",
+      "subsection",
+      "regulatory",
+      "authority",
+      "respect",
+      "disclosure",
+      "required"
+    ],
+    "last_verified": "2025-11"
+  },
+  {
+    "id": "vasp-s43",
+    "title": "Section 43 — Appeals",
+    "source_ref": "Section 43",
+    "topics": [
+      "governance"
+    ],
+    "jurisdictions": [
+      "KE"
+    ],
+    "description": "Appeals — under MISCELLANEOUS PROVISIONS of the Virtual Asset Service Providers Act (Kenya).",
+    "keywords": [
+      "relevant",
+      "decision",
+      "authority",
+      "body",
+      "licence",
+      "terms",
+      "regulatory",
+      "appeal"
+    ],
+    "last_verified": "2025-11"
+  },
+  {
+    "id": "vasp-s44",
+    "title": "Section 44 — Access to and maintenance of client transaction records",
+    "source_ref": "Section 44",
+    "topics": [
+      "governance"
+    ],
+    "jurisdictions": [
+      "KE"
+    ],
+    "description": "Access to and maintenance of client transaction records — under MISCELLANEOUS PROVISIONS of the Virtual Asset Service Providers Act (Kenya).",
+    "keywords": [
+      "client",
+      "transaction",
+      "relevant",
+      "regulatory",
+      "authority",
+      "access",
+      "records",
+      "licensee"
+    ],
+    "last_verified": "2025-11"
+  },
+  {
+    "id": "vasp-s45",
+    "title": "Section 45 — Protection from liability",
+    "source_ref": "Section 45",
+    "topics": [
+      "governance"
+    ],
+    "jurisdictions": [
+      "KE"
+    ],
+    "description": "Protection from liability — under MISCELLANEOUS PROVISIONS of the Virtual Asset Service Providers Act (Kenya).",
+    "keywords": [
+      "relevant",
+      "regulatory",
+      "authority",
+      "done",
+      "protection",
+      "liability",
+      "action",
+      "prosecution"
+    ],
+    "last_verified": "2025-11"
+  },
+  {
+    "id": "vasp-s46",
+    "title": "Section 46 — Compliance to the Data Protection Act (Cap. 411C)",
+    "source_ref": "Section 46",
+    "topics": [
+      "governance"
+    ],
+    "jurisdictions": [
+      "KE"
+    ],
+    "description": "Compliance to the Data Protection Act (Cap. 411C) — under MISCELLANEOUS PROVISIONS of the Virtual Asset Service Providers Act (Kenya).",
+    "keywords": [
+      "data",
+      "protection",
+      "compliance",
+      "processing",
+      "personal",
+      "comply"
+    ],
+    "last_verified": "2025-11"
+  },
+  {
+    "id": "vasp-s47",
+    "title": "Section 47 — Transitional and saving provisions",
+    "source_ref": "Section 47",
+    "topics": [
+      "governance"
+    ],
+    "jurisdictions": [
+      "KE"
+    ],
+    "description": "Transitional and saving provisions — under MISCELLANEOUS PROVISIONS of the Virtual Asset Service Providers Act (Kenya).",
+    "keywords": [
+      "provisions",
+      "commencement",
+      "transitional",
+      "saving",
+      "upon",
+      "providing",
+      "virtual",
+      "asset"
+    ],
+    "last_verified": "2025-11"
+  },
+  {
+    "id": "vasp-s48",
+    "title": "Section 48 — Consequential amendments",
+    "source_ref": "Section 48",
+    "topics": [
+      "governance"
+    ],
+    "jurisdictions": [
+      "KE"
+    ],
+    "description": "Consequential amendments — under MISCELLANEOUS PROVISIONS of the Virtual Asset Service Providers Act (Kenya).",
+    "keywords": [
+      "specified",
+      "schedule",
+      "consequential",
+      "amendments",
+      "second",
+      "amended",
+      "manner"
+    ],
+    "last_verified": "2025-11"
+  },
+  {
+    "id": "vasp-s49",
+    "title": "Section 49 — Regulation",
+    "source_ref": "Section 49",
+    "topics": [
+      "scope"
+    ],
+    "jurisdictions": [
+      "KE"
+    ],
+    "description": "Regulation — under PROVISIONS ON DELEGATED POWERS of the Virtual Asset Service Providers Act (Kenya).",
+    "keywords": [
+      "requirements",
+      "regulations",
+      "virtual",
+      "business",
+      "asset",
+      "cabinet",
+      "secretary",
+      "make"
+    ],
+    "last_verified": "2025-11"
+  },
+  {
+    "id": "vasp-first-schedule",
+    "title": "VIRTUAL ASSET ACTIVITIES",
+    "source_ref": "First Schedule",
+    "topics": [
+      "licensing",
+      "scope"
+    ],
+    "jurisdictions": [
+      "KE"
+    ],
+    "description": "VIRTUAL ASSET ACTIVITIES of the VASP Act.",
+    "keywords": [
+      "virtual",
+      "authority",
+      "assets",
+      "asset",
+      "type",
+      "function",
+      "regulatory",
+      "capital"
+    ],
+    "last_verified": "2025-11"
+  },
+  {
+    "id": "vasp-second-schedule",
+    "title": "CONSEQUENTIAL AMENDMENTS",
+    "source_ref": "Second Schedule",
+    "topics": [
+      "scope"
+    ],
+    "jurisdictions": [
+      "KE"
+    ],
+    "description": "CONSEQUENTIAL AMENDMENTS of the VASP Act.",
+    "keywords": [
+      "virtual",
+      "asset",
+      "service",
+      "inserting",
+      "providers",
+      "words",
+      "provision",
+      "amendment"
+    ],
+    "last_verified": "2025-11"
+  }
+]
