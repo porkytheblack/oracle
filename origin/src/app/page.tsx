@@ -842,10 +842,13 @@ function WelcomeScreen({ onSuggest }: { onSuggest: (q: string) => void }) {
     <div className="max-w-2xl mx-auto px-6 py-20 animate-fade-in">
       {/* Hero */}
       <div className="mb-10">
-        <div className="font-mono text-[11px] text-dterminal tracking-widest uppercase mb-5 flex items-center gap-2">
-          <span className="w-5 h-px bg-dterminal inline-block" />
-          Oracle &middot; by dterminal
-        </div>
+        <Link href="https://glove.dterminal.net" target="_blank" >
+        
+          <div className="font-mono text-[11px] text-dterminal tracking-widest uppercase mb-5 flex items-center gap-2">
+            <span className="w-5 h-px bg-dterminal inline-block" />
+            Oracle &middot; built with Glove
+          </div>
+        </Link>
         <h1 className="font-mono text-[48px] font-bold text-oracle leading-none mb-3 tracking-tight">
           Oracle
         </h1>
