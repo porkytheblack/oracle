@@ -1199,5 +1199,1894 @@
       "article": "94(6)",
       "relevance": "Delegation of legislative power for regulations"
     }
-  ]
+  ],
+
+  "regulations": {
+    "metadata": {
+      "title": "The Virtual Asset Service Providers Regulations, 2026",
+      "status": "draft",
+      "made_under": "Section 49 of the Virtual Asset Service Providers Act, No. 20 of 2025",
+      "made_by": "Cabinet Secretary to the National Treasury",
+      "parent_act": "The Virtual Asset Service Providers Act (No. 20 of 2025)",
+      "total_regulations": 147,
+      "total_parts": 15,
+      "total_schedules": 6
+    },
+
+    "parts": {
+      "part_1": {
+        "title": "PRELIMINARY",
+        "regulations": {
+          "1": {
+            "title": "Citation",
+            "content": "These Regulations may be cited as Virtual Asset Service Providers Regulations, 2026."
+          },
+          "2": {
+            "title": "Interpretation",
+            "preamble": "In these Regulations, unless the context otherwise requires--",
+            "definitions": {
+              "Act": "The Virtual Asset Service Providers Act, 2025.",
+              "advertisement": "A representation for the purposes of directly or indirectly promoting virtual assets and services through any medium and in any form, including (a) magazines and newspapers; (b) radio and television; (c) outdoor advertising, including billboards, window displays and signs at public venues; (d) the internet, including web pages, banner advertisements, online messaging services and social media and networking platforms; (e) product brochures and promotional fact sheets; (f) direct mail, including post, facsimile or email; (g) white papers or prospectus; (h) telemarketing activities; and (i) seminars and presentations to individuals or such other groups of individuals, whether held in person or online, conducted in live format or recorded and made available for public access thereafter, which are distributed through any medium.",
+              "AML/CFT/CPF": "Has the meaning assigned to it under section 2 of the Act.",
+              "consumer_assets": "Any virtual assets owned by a consumer, including stablecoins.",
+              "cyber_security": "An approach or series of steps to prevent or manage the risk of damage to, unauthorized use of, exploitation of and, as needed, to restore electronic information and communications systems, and the information they contain, in order to strengthen the confidentiality, integrity, and availability of these systems.",
+              "cyber_security_event": "Any act or attempt, successful or unsuccessful, to gain unauthorized access to disrupt, or misuse the electronic systems or information stored on such systems.",
+              "cyber_security_risk": "The risk of financial loss, operational disruption or damage from the failure of the digital technologies employed for informational or operational functions introduced to an information system via electronic means from the unauthorized access, use, disclosure, disruption, modification, or destruction of the information system.",
+              "consumer": "A person who uses, has used, or is or may be contemplating using directly or indirectly any of the products or services provided by a virtual asset service provider or is intended to receive an advertisement.",
+              "core_capital": "Issued and fully paid-up ordinary share capital and disclosed reserves.",
+              "fiat_referenced_stablecoin": "A type of stablecoin that maintains a stable value by being pegged 1:1 to the value of a fiat currency.",
+              "forks": "Changes to the software on which a distributed ledger technology protocol operates.",
+              "liquid_capital": "In relation to a licensee, the amount which the liquid assets of a licensee exceed its liabilities.",
+              "paid_up_capital": "Issued and fully paid-up ordinary shares paid by shareholders of the company.",
+              "reserve_asset": "An asset that is held by a licensee to back the value of its virtual assets issued and held strictly for discharging liabilities arising from the issuance of virtual assets.",
+              "shareholders_funds": "The net worth of a company, calculated as total assets minus total liabilities.",
+              "tokenization": "The process of converting real-world assets into digital tokens on a blockchain.",
+              "tokenize": "The process of converting real-world assets into digital tokens on a blockchain.",
+              "white_paper": "A disclosure document published by or on behalf of a virtual asset offering provider prior to the offer, issue, or admission to trading of a virtual asset, containing such information as specified in these Regulations."
+            }
+          },
+          "3": {
+            "title": "Application of these Regulations",
+            "subsections": {
+              "1": {
+                "content": "These Regulations shall apply to persons offering virtual asset services in or from Kenya."
+              },
+              "2": {
+                "content": "For purposes of subregulation (1), a person is deemed to be operating 'in or from Kenya' where that person derives an economic benefit or income from Kenya regardless of whether the person has physical presence in Kenya or not."
+              },
+              "3": {
+                "content": "These Regulations shall be read in conjunction with the Act, guidelines issued by the relevant regulatory authorities, the Proceeds of Crime and Anti-Money Laundering Act, the Prevention of Terrorism Act, the Computer Misuse and Cyber Crimes Act and any other relevant written law."
+              }
+            }
+          },
+          "4": {
+            "title": "Fees payable",
+            "subsections": {
+              "1": {
+                "content": "The fees payable under these Regulations shall be as set out in the First Schedule of these Regulations."
+              },
+              "2": {
+                "content": "The withdrawal of any application under these Regulations shall result in the forfeiture of the application fee."
+              }
+            }
+          }
+        }
+      },
+
+      "part_2": {
+        "title": "LICENSING AND AUTHORIZATION REQUIREMENTS",
+        "regulations": {
+          "5": {
+            "title": "Application for a licence",
+            "subsections": {
+              "1": {
+                "content": "An application for a licence to offer one or more of the permissible activities pursuant to section 10(1) of the Act shall be made in the form set out in the Second Schedule."
+              },
+              "2": {
+                "content": "An application for a licence under subregulation (1) shall be accompanied by--",
+                "a": "the personal details, qualifications, experience, business interests and occupation of the applicant's (i) directors; (ii) senior officers; (iii) significant shareholders; (iv) beneficial owner;",
+                "b": "a business plan prepared in accordance with the Third Schedule to these Regulations;",
+                "c": "a dully filled fit and proper assessment form as provided for in the Fourth Schedule to these Regulations;",
+                "d": "proof of source of funds;",
+                "e": "a description of the systems and controls of the proposed virtual asset business;",
+                "f": "the operational policies that shall guide the applicant's activities, including (i) the risk management policies; (ii) the AML/CFT/CPF policies; (iii) the cybersecurity and information technology policy; (iv) the complaints managements policy;",
+                "g": "copies of contracts and any arrangements for oversight of activities as the relevant regulatory authority may require, where applicable;",
+                "h": "evidence of the paid-up capital and liquid capital at the amount specified in the Fifth Schedule;",
+                "i": "the audited financial statements for three years prior to the submission of the application or the opening financial statements verified by an auditor, as applicable;",
+                "j": "evidence of human and technology resources sufficient to efficiently operate and manage the virtual asset business as required in regulation 17;",
+                "k": "in the case of virtual asset exchange, token issuance platforms, virtual asset offerings and virtual asset wallet providers, the business rules of the applicant prepared in accordance with regulation 19;",
+                "l": "evidence of adequate systems and controls to maintain market integrity prepared in accordance with these Regulations, including avoidance of market abuse;",
+                "m": "the class of virtual assets intended to be traded or available for subscription;",
+                "n": "the details of the applicant's principal business address and website;",
+                "o": "a certified copy of the certificate of incorporation of the applicant;",
+                "p": "up to date the details of the directors and shareholders of the applicant issued by the Registrar of Companies (CR12);",
+                "q": "a copy of the register of beneficial owners prepared and issued by the Registrar of Companies;",
+                "r": "proof of payment of the application fee specified in the First Schedule; and",
+                "s": "any additional requirements that may be required under the Act."
+              },
+              "3": {
+                "content": "An applicant shall, upon the request of the relevant regulatory authority, participate in an interview, to obtain further information concerning its application or supporting information and records."
+              }
+            }
+          },
+          "6": {
+            "title": "Issuance of licence",
+            "subsections": {
+              "1": {
+                "content": "Where the relevant regulatory authority is satisfied that the applicant meets the requirements of section 11 of the Act, the relevant regulatory authority may issue the applicant with a virtual asset service providers licence upon payment of licence fee prescribed under the First Schedule."
+              },
+              "2": {
+                "content": "A licence issued under this regulation may contain such conditions as the relevant regulatory authority may determine."
+              }
+            }
+          },
+          "7": {
+            "title": "Commencement of virtual asset business",
+            "content": "Upon grant of a licence under the Act, a licensee shall commence its virtual asset business immediately on the date of grant of the licence but where that commencement is not practicable, the licensee shall seek an extension from the relevant regulatory authority which extension shall not be more than twelve months from the date the licence was granted."
+          },
+          "8": {
+            "title": "Alteration of facts disclosed in application",
+            "subsections": {
+              "1": {
+                "content": "An applicant for a licence under regulation 5 shall give written notice to the relevant regulatory authority of-- (a) any proposed alteration to the information in the original application; or (b) the occurrence of any material event that affects or may affect information provided to the relevant regulatory authority, in the application."
+              },
+              "2": {
+                "content": "For purposes of subregulation (1)(b), 'material event' includes-- (a) failure or material degradation of a proposed critical third-party service provider; (b) any litigation or dispute resolution activity undertaken or affecting the applicant; (c) insolvency, a material liquidity shortfall or credible threat to solvency; (d) an enforcement action, criminal investigation or sanction that affects the applicant; (e) a cybersecurity incident; (f) any intended change in ownership and actual change or control that is material to the applicant; (g) such other action or incident that directly or indirectly affects the general business operations of the applicant."
+              }
+            }
+          },
+          "9": {
+            "title": "Grounds for rejection of an application",
+            "content": "The relevant regulatory authority may reject an application for a licence where--",
+            "grounds": {
+              "a": "the applicant fails to respond to requests for clarification or further information from the relevant regulatory authority concerning its application or any of the supporting information or records;",
+              "b": "the applicant fails to comply with a request to participate in an interview made under regulation 5(3);",
+              "c": "the applicant, in the opinion of the relevant regulatory authority, does not have the requisite capability to comply with the AML/CFT/CPF requirements;",
+              "d": "the applicant's directors, or such other senior officers fail to meet the fit and proper criteria set out in section 18 of the Act;",
+              "e": "the granting of the licence is against public interest or public policy;",
+              "f": "the applicant has a record of history of regulatory breaches or non-compliance with prudential, AML/CFT/CPF or any other regulatory requirements, either in Kenya or any other jurisdiction in which the applicant is or has been licensed as a virtual asset service provider; or",
+              "g": "in the opinion of the relevant regulatory authority, the approval of the application may pose a risk to the integrity, security and stability of the financial system."
+            }
+          },
+          "10": {
+            "title": "False and misleading statements",
+            "subsections": {
+              "1": {
+                "content": "A person shall not, in connection with an application submitted to the relevant regulatory authority for grant of a licence under these Regulations-- (a) make a statement to the relevant regulatory authority which he or she knows or ought reasonably to know is false or misleading; or (b) omit to state any matter to the relevant regulatory authority where he or she knows or ought reasonably to know that, because of the omission, the application is misleading."
+              },
+              "2": {
+                "content": "Any person who contravenes sub regulation (1) commits an offence and is liable, upon conviction-- (a) in the case of an individual, to a fine not exceeding seven million shillings or to imprisonment for a term not exceeding three years, or to both; (b) in the case of a company, to a fine not exceeding twenty million shillings."
+              }
+            }
+          },
+          "11": {
+            "title": "Assignment and transfer of licence",
+            "subsections": {
+              "1": {
+                "content": "A licensee who wishes to assign or transfer a licence issued under these Regulations shall, on payment of the fee set out in the First Schedule, make an application to the relevant regulatory authority for the assignment or transfer of the licence."
+              },
+              "2": {
+                "content": "An assignment or transfer made by a licensee in contravention of subsection (1) shall be null and void and constitute sufficient grounds for the relevant regulatory authority to revoke the license."
+              },
+              "3": {
+                "content": "An application made under sub-regulation (1) shall only be considered if the licensee-- (a) commenced operations in accordance with the conditions of the licence; (b) held the licence for a minimum period of thirty-six months from the date of commencement of business; and (c) has fully complied with provisions of these Regulations."
+              },
+              "4": {
+                "content": "In determining an application for transfer or assignment of a license under this regulation, the relevant regulatory authority shall consider the following-- (a) that the transferee meets all requirements for licensing under the Act, these Regulations and other relevant Act; (b) the applicant has paid all outstanding fees and penalties, if any, relating to the license; (c) the applicant has no outstanding non-compliance matters; (d) that the transfer is necessary in the interest of the business, its consumers or financial stability."
+              }
+            }
+          },
+          "12": {
+            "title": "Authorisation for conversion of virtual assets",
+            "subsections": {
+              "1": {
+                "content": "A person seeking to transact the business of conversion of virtual assets to or from foreign currency shall, before commencing such conversion business, apply to the relevant regulatory authority for authorisation."
+              },
+              "2": {
+                "content": "An application under subregulation (1) shall be made in the form and manner specified by the relevant regulatory authority."
+              },
+              "3": {
+                "content": "In considering an application under subregulation (1), the relevant regulatory authority shall take into consideration the financial condition and history of the applicant."
+              },
+              "4": {
+                "content": "The relevant regulatory authority may grant an authorization subject to such conditions as it may consider necessary."
+              },
+              "5": {
+                "content": "An authorisation issued under this regulation shall, unless earlier revoked, be valid from the date it is issued and shall expire on the 31st December of the year it is issued."
+              }
+            }
+          },
+          "13": {
+            "title": "Renewal of authorisation",
+            "subsections": {
+              "1": {
+                "content": "An authorisation granted under regulation 12 may, on expiry, be renewed on an annual basis."
+              },
+              "2": {
+                "content": "An application for the renewal of an authorization shall be lodged with the relevant regulatory authority at least two months prior to the expiry of the authorisation."
+              }
+            }
+          },
+          "14": {
+            "title": "Revocation of authorisation",
+            "subsections": {
+              "1": {
+                "content": "The relevant regulatory authority may, by notice in writing, revoke or suspend an authorisation granted under these Regulations for such period as it may specify, if the authorised person-- (a) ceases to carry on business in Kenya or goes into liquidation or is wound up, or is otherwise dissolved; (b) fails to comply with the provisions of these Regulations or any condition attached to an authorisation; or (c) conducts business in a manner detrimental to the best interests of the public."
+              },
+              "2": {
+                "content": "Before revoking or suspending an authorization under this regulation, the relevant regulatory authority shall give an authorized person, at least fourteen days' notice and shall consider any representations made to it in writing by the authorised person."
+              }
+            }
+          }
+        }
+      },
+
+      "part_3": {
+        "title": "PROVISIONS ON ONGOING REQUIREMENTS",
+        "regulations": {
+          "15": {
+            "title": "Ongoing notifications",
+            "subsections": {
+              "1": {
+                "content": "A licensee shall ensure that notifications and reports required to be submitted under section 25 of the Act are submitted in the form and manner specified by the relevant regulatory authority."
+              },
+              "2": {
+                "content": "The chief executive officer of the licensee shall provide a notification or report in accordance with section 25 of the Act."
+              }
+            }
+          },
+          "16": {
+            "title": "Ongoing obligations",
+            "subsections": {
+              "1": {
+                "content": "Every licensee shall ensure that its virtual asset services are conducted in a fair, transparent and efficient manner for the purpose of reducing any systemic or any other type of risk that may adversely affect fair and orderly provision of virtual asset services."
+              },
+              "2": {
+                "content": "A licensee shall, in writing and at such times as the relevant regulatory authority may direct, submit to the relevant regulatory authority a report addressing matters affecting the virtual assets business."
+              },
+              "3": {
+                "content": "The report referred to in subregulation (2) may include-- (a) ongoing compliance by the licensee with the terms of the licence; (b) complaints received and resolutions reached; (c) disciplinary matters arising and dealt with; (d) the adequacy and performance of systems and controls; (e) the financial matters concerning the operation of the virtual asset business; and (f) any other information as may be required by the relevant regulatory authority."
+              }
+            }
+          },
+          "17": {
+            "title": "Human and technology resources",
+            "subsections": {
+              "1": {
+                "content": "A licensee shall, to the satisfaction of the relevant regulatory authority, have sufficient human and technology resources to operate a virtual asset business."
+              },
+              "2": {
+                "content": "For purposes of subregulation (1), a licensee shall satisfy the relevant regulatory authority with respect to-- (a) employing fit and proper staff, appropriately trained for the duties to be performed and trained to the standards required; (b) appointing a management team with adequate levels of experience and expertise to supervise and monitor the operations of the virtual asset business; (c) technology resources that are established and maintained in such a way as to ensure that they are secure and maintain the confidentiality of the data they contain; and (d) details of systems and associated technologies to be adopted by the applicant."
+              }
+            }
+          },
+          "18": {
+            "title": "Virtual asset business to establish proper markets",
+            "content": "A virtual asset service provider shall, to the satisfaction of the relevant regulatory authority, establish and operate proper markets that are conducive to the economic good of the country and that do not cause or promote instability."
+          },
+          "19": {
+            "title": "Business and default rules",
+            "subsections": {
+              "1": {
+                "content": "A licensee shall, to the satisfaction of the relevant regulatory authority, have clear and fair business rules which are-- (a) legally enforceable by consumers; and (b) published and made freely available."
+              },
+              "2": {
+                "content": "A licensee shall have compliance procedures in place to ensure that-- (a) the business rules in subregulation (1) are enforced; (b) the complaints regarding its virtual asset services and appeal procedures are in place; (c) where appropriate, a disciplinary action resulting in financial and other types of penalties is available; and (d) the procedure for detecting, preventing and reporting any form of market abuse is available."
+              },
+              "3": {
+                "content": "The business rules under subregulation (1) shall be approved by the relevant regulatory authority."
+              },
+              "4": {
+                "content": "The business rules in subregulation (1) shall specify the class of virtual assets traded on or available for subscription, and requirements with respect to-- (a) a licensee's financial reporting including how regular reports are made, the applicable international accounting standards or any other accounting standard accepted by the relevant regulatory authority to which they comply; (b) the auditing standards; (c) the licencee's track record in terms of profit or operating history; and (d) any restrictions that may exist on transferability for a virtual asset."
+              },
+              "5": {
+                "content": "A virtual asset service provider shall have default rules in place which in the event of a purchaser or consumer being or appearing to be unable to fulfil its obligations in respect of one or more contracts, enables action to be taken with respect to unsettled virtual asset transactions to which the consumer is a party."
+              },
+              "6": {
+                "content": "A virtual asset exchange or token issuance platform shall have in place and submit to the relevant regulatory authority, rules containing provisions relating to-- (a) methods of access to its platform; (b) hours of operation, exchange availability and interruptions; (c) admission, suspension or delisting of virtual assets from trading on the exchange or platform; (d) the conditions governing dealings in virtual assets and investor protection measures; (e) asset custody arrangements; (f) prompt and real-time disclosure to all investors of material information; (g) order submission procedures, order minimums and order types; (h) market data, pre and post trade transparency; (i) prevention of market abuse and other prohibited conduct; (j) investigation into trading in virtual asset transactions and for conducting inspections; (k) suspension of trading for the protection of investors or for the conduct of orderly and fair trading; (l) the conduct of virtual assets trading and the form in which information relating to transactions is to be maintained and reported to the virtual asset exchange; (m) dispute resolution mechanisms; (n) trading fees chargeable; (o) requirements on funding of accounts; (p) order matching and order matching priorities; (q) trade settlement and confirmation; and (r) deposit and withdrawal procedures."
+              }
+            }
+          },
+          "20": {
+            "title": "Business continuity plan",
+            "subsections": {
+              "1": {
+                "content": "A licensee shall have in place a formalized business continuity plan, as approved by its board of directors, and address its strategy for maintaining continuity of its operations, its plans for communicating and regularly testing the adequacy and effectiveness of this plan."
+              },
+              "2": {
+                "content": "The business continuity plan shall outline arrangements to reduce the impact of short, medium or long-term disruption, including-- (a) resource requirements such as people, systems and other assets, and arrangements for obtaining these resources; (b) the recovery priorities for the licensee' operations; and (c) communication arrangements for internal and external concerned parties."
+              },
+              "3": {
+                "content": "A licensee shall review and test its business continuity plan at least every two years to ensure that it is up-to-date."
+              },
+              "4": {
+                "content": "A licensee shall make available its business continuity plan or its report depicting the results of its business continuity testing to the relevant regulatory authority, upon request, and within such time as may be indicated."
+              },
+              "5": {
+                "content": "Where a person acts in contravention of this regulation, the relevant regulatory authority shall take such enforcement action as it deems necessary under the Act, and may impose an administrative penalty of three million shillings."
+              }
+            }
+          },
+          "21": {
+            "title": "Transaction information",
+            "subsections": {
+              "1": {
+                "content": "Pursuant to section 44 of the Act, a licensee shall-- (a) record the activity and transactions effected on or through its distributed ledger technology platform; (b) maintain the activity and transaction records for at least seven years; and (c) provide the relevant regulatory authority or any competent authority with such records in a timely manner as the relevant regulatory authority or competent authority may require."
+              },
+              "2": {
+                "content": "The information referred to under subregulation (1) shall include technical and contextual metadata on transactions such as wallet addresses, transaction hashes, network or chain identifiers, high-precision timestamps, order-book and application programming interface (API) interaction logs and identifiers of cross-chain or bridge pathways."
+              }
+            }
+          },
+          "22": {
+            "title": "Disclosure of information by employees",
+            "content": "A licensee shall have appropriate procedures and protection measures for allowing employees to disclose any information to the relevant regulatory authority, competent authorities or comparable bodies involved in the prevention of market abuse, financial crime, money laundering, terrorism financing or proliferation financing."
+          },
+          "23": {
+            "title": "Disclosure of information to consumers",
+            "subsections": {
+              "1": {
+                "content": "A licensee shall make the following disclosures to its consumers prior to engaging in any transaction or providing any service-- (a) full details of the current licence status, including the specific categories of virtual asset services for which it is licenced by the relevant regulatory authority; (b) the full legal name, physical address of the principal office in Kenya and their contact information; (c) a clear and up-to-date disclosure of any actual conflicts of interest from the licensee's activities including a description of the mechanisms employed to identify, manage, or mitigate such conflicts; (d) a publicly accessible policy outlining the procedure for handling consumer complaints, including the maximum response time and the escalation path to the relevant regulatory authority; (e) an accurate description of the nature of virtual asset services offered, features, characteristics and limitations; (f) a comprehensive statement of the risks associated with virtual asset and the services provided, including the market volatility, technology and cybersecurity risks; (g) any applicable fees, commissions or other charges in the provision of their services and the timing of payment for the fees; (h) the procedures for withdrawals, suspension and cancellation of transactions; (i) the security protocols employed for transaction execution, consumer authentication, and data protection; (j) the measures in place to ensure business continuity and recovery in the event of a system failure or cyber incident; and (k) any material change in business operations, ownership, management, terms of service or rates and charges."
+              },
+              "2": {
+                "content": "In furtherance to subregulation (1), a licensee shall not, in any written communication or agreement, exclude or restrict-- (a) any duty or liability to a consumer which it has under any law or under any regulations made by the relevant regulatory authority; (b) any liability owed to a consumer for failure to exercise the degree of skill, care and diligence that may reasonably be expected of it in the provision of the service of a regulated activity; (c) any other duty to act with skill, care and diligence that is owed to a consumer in connection with the provision to him of her of the service of a regulated activity."
+              },
+              "3": {
+                "content": "A licensee may not charge the consumer for fulfilment of its disclosure and information obligations under these Regulations."
+              }
+            }
+          },
+          "24": {
+            "title": "Consumer information",
+            "subsections": {
+              "1": {
+                "content": "A licensee shall seek sufficient information about the consumer and the consumer's circumstances to ensure that the services provided are consistent with those circumstances."
+              },
+              "2": {
+                "content": "Notwithstanding the generality of subregulation (1), a licensee shall-- (a) when recommending investments to a consumer or where it has discretion to act on behalf of a consumer, take and document reasonable steps to satisfy itself that the recommendation or discretionary action is suitable for the consumer, taking account of all the available alternatives; (b) not recommend, or where the licensee has discretion to act on behalf of a consumer, execute any sale or purchase that is unsuitable for the consumer."
+              },
+              "3": {
+                "content": "A licensee shall take all reasonable steps to ensure that it does not give advice or effect a transaction, on behalf of a consumer, unless the advice or transaction is suitable for the consumer considering the facts disclosed by the consumer and any other relevant facts about the consumer that the licensee is or ought to reasonably be aware of."
+              }
+            }
+          },
+          "25": {
+            "title": "Record keeping and submission of reports",
+            "subsections": {
+              "1": {
+                "content": "A licensee shall use systems which are able to provide an accurate and fully accessible audit trail of all transactions."
+              },
+              "2": {
+                "content": "A licensee shall, within ten days of the end of every calendar month, submit daily reports to the the relevant regulatory authority, in the manner specified by the relevant regulatory authority, information regarding-- (a) the volumes, values and geographic distribution of each virtual asset transfer or payment offered by it; (b) incidents of fraud, theft or robbery; (c) material service interruptions and major security breaches; (d) complaints reported, including remedial measures taken, those resolved and those outstanding."
+              }
+            }
+          },
+          "26": {
+            "title": "Provision of information",
+            "content": "The relevant regulatory authority may-- (a) require an officer of the licensee to produce or furnish to the relevant regulatory authority or officer making an examination, within a reasonable time-- (i) such books of accounts and any other documents in the custody or power of the licensee; (ii) statements or information relating to the affairs of licensee as may be required by the examining officer; (b) by notice, require a licensee to provide information to the relevant regulatory authority, in such manner and form as the relevant regulatory authority may specify for the purposes of assessing compliance with these Regulations; (c) at any time, enter any premises where a licensee is carrying on business, or any premises where the relevant regulatory authority reasonably suspects that any business is carried out in contravention of these Regulations."
+          },
+          "27": {
+            "title": "Register of interests",
+            "subsections": {
+              "1": {
+                "content": "A licensee shall maintain a register of interests disclosing any holdings, directorships, or beneficial interests of directors, senior officers, or associated parties in any virtual asset issuer."
+              },
+              "2": {
+                "content": "The register shall be reviewed at least annually and made available to the relevant regulatory authority upon request."
+              }
+            }
+          },
+          "28": {
+            "title": "Shareholding of virtual asset exchange, stable coin issuer and wallet provider",
+            "subsections": {
+              "1": {
+                "content": "In relation to a virtual asset exchange, stablecoin issuance or virtual asset wallet provider, a person shall not-- (a) control or be beneficially entitled, directly or indirectly, to more than thirty-three and a third percent of the issued share capital or voting rights, directorship appointments, dividends or interest on shareholder loans in a licensee; or (b) appoint more than one-third of the members of the board of a licensee."
+              },
+              "2": {
+                "content": "Notwithstanding subregulation (1), a person may be allowed to own more than thirty-three and a third percent or control more than one-third of appointments in a licensee, if the person is-- (a) a corporate entity with a diverse shareholding; and (b) the ultimate beneficial owners of the corporate entity do not hold more that 33.3 percent of the shareholding in that entity."
+              }
+            }
+          },
+          "29": {
+            "title": "Ownership changes",
+            "subsections": {
+              "1": {
+                "content": "Pursuant to section 27 of the Act, where a person desires to directly or indirectly acquire shares or an interest in a licensee or where a licensee wishes to voluntarily transfer or dispose of its shares, it shall make an application to the relevant regulatory authority upon payment of a fee set out in the First Schedule."
+              },
+              "2": {
+                "content": "An application made in terms of subregulation (1) shall include sufficient information to enable the relevant regulatory authority to consider the proposed acquisition, transfer or disposal in relation to-- (a) the nature of the proposed acquisition, disposal or transfer; (b) the identity of the proposed acquirer or acquiree and any person who has control or management of the proposed acquirer; (c) how the proposed acquisition, transfer or disposal is to be financed."
+              },
+              "3": {
+                "content": "In assessing a proposed acquisition, transfer or disposal, the relevant regulatory authority shall have regard to-- (a) the suitability and character of the proposed acquirer; (b) the ability of the proposed acquirer to conduct the business of the licensee in the long term; (c) the reputation, knowledge, skills and experience of any person who will direct the business of the licensee as a result of the proposed acquisition, transfer or disposal; (d) the fitness and probity of any new directors, significant shareholders and senior officers appointed as a result of the proposed acquisition, transfer or disposal; (e) the financial soundness of the proposed acquisition, transfer or disposal; (f) the source of funds of the acquirer; (g) whether the licensee will be able to comply and continue to comply with the provisions of the Act and these Regulations; and (h) whether there are reasonable grounds to suspect that, in connection with the proposed acquisition, disposal or transfer, financial crime, money laundering, terrorism financing or proliferation financing is being or has been committed or attempted or could increase the risk thereof."
+              },
+              "4": {
+                "content": "The relevant regulatory authority may, where it grants or refuses to grant approval on the proposal to acquire, dispose or transfer shares or interest in a licensee, inform the licensee, in writing, and shall give reasons for the grant or refusal of the approval."
+              },
+              "5": {
+                "content": "For the purposes of this regulation, the relevant regulatory authority may consult the competent authorities responsible for mergers and acquisitions and anti-money laundering, counterterrorism and proliferation financing in granting or declining its approval."
+              }
+            }
+          },
+          "30": {
+            "title": "Conflict of interest",
+            "subsections": {
+              "1": {
+                "content": "A licensee shall-- (a) identify and document the conflicts of interest that are likely to occur in the course of its regulated activity; (b) adopt and document appropriate policies to minimize those conflicts by identifying the instances where it would refuse to act and, where this is not necessary, making arrangements to minimize the risk of any loss to the consumer; and (c) avoid any conflict of interest between itself and a consumer and where such a conflict exists, decline to act, or if it considers that the conflict can be managed, disclose it to the consumer and follow the policies developed to minimize damage to the consumer and to put the consumer's interests ahead of its own."
+              },
+              "2": {
+                "content": "A licensee shall not take advantage of information it obtained from providing services to a consumer for its own benefit or the benefit of its employees or the benefit of another consumer, and where such an eventuality is likely to occur, the licensee shall-- (a) adopt and document procedures, including the erection of information barriers, barriers between information technology systems, physical barriers or even separate office locations, to minimize the possibility of information from one consumer being used for the benefit of another consumer, its employees or the licensee; (b) train employees in matters relating to the conflict of interest and the procedures developed to avoid them; and (c) obtain undertakings from employees that they will not use information gained from the consumers for their personal benefit."
+              },
+              "3": {
+                "content": "Where a licensee has a material interest in a transaction to be entered into with or for a consumer, or a relationship which gives rise to a conflict of interest, the licensee shall not, knowingly, advise, or exercise discretion, in relation to that transaction unless it has-- (a) disclosed the material interest or relationship that may give rise to a conflict, as the case may be, to the consumer; or (b) taken reasonable steps to ensure that neither the material interest nor relationship would adversely affect the interests of the consumer."
+              },
+              "4": {
+                "content": "A licensee shall take reasonable steps to ensure that neither it nor any of its employees or agents offers or gives, or solicits or accepts, any inducement that is likely to conflict with any of the duties owed to consumers."
+              }
+            }
+          },
+          "31": {
+            "title": "Information at point of service",
+            "subsections": {
+              "1": {
+                "content": "A licensee shall, at the point of service, provide-- (a) a clear and understandable description of the services which it offers and the rates, terms, conditions and charges for such services; (b) clear terms of service to its consumers and agents; (c) the name of the licensee; (d) a telephone number or such other contact medium which provides access to its consumer care system."
+              },
+              "2": {
+                "content": "The information referred to under sub regulation (1) shall be published and displayed conspicuously at all points of service."
+              }
+            }
+          },
+          "32": {
+            "title": "Performance of customer due diligence prior to onboarding",
+            "subsections": {
+              "1": {
+                "content": "A licensee shall perform customer due diligence prior to onboarding a consumer by identifying and verifying the identity details of the consumer for purposes of these Regulations."
+              },
+              "2": {
+                "content": "The performance of customer due diligence under subregulation (1), shall be done in accordance with the obligations imposed under the Proceeds of Crime and Anti-Money Laundering Act."
+              }
+            }
+          },
+          "33": {
+            "title": "Performance of due diligence before admission for trading",
+            "subsections": {
+              "1": {
+                "content": "A virtual asset exchange or token issuance platform provider shall perform due diligence on all virtual assets before including them for trading on the exchange or platform."
+              },
+              "2": {
+                "content": "In the performance due diligence under subregulation (1), the virtual asset exchange or token issuance platform provider shall take into consideration-- (a) the regulatory status of the virtual asset and whether its regulatory status would also affect the regulatory obligations of the virtual asset exchange and token issuance platform provider; (b) the supply, demand, maturity and liquidity of a virtual asset; (c) the complexity and development of the virtual asset; (d) the risks associated with the virtual asset and its issuer; (e) the enforceability of any consumer rights relating to the virtual asset."
+              },
+              "3": {
+                "content": "Where a virtual asset for trading is based on a smart-contract, a virtual asset exchange or token issuance platform provider shall cause the smart-contract to be audited by an independent assessor before admitting the virtual asset for trading."
+              },
+              "4": {
+                "content": "A virtual asset exchange or token issuance platform provider shall continuously monitor each virtual asset admitted for trading on the exchange or the platform to determine the viability of that virtual asset to continue or cease trading."
+              }
+            }
+          },
+          "34": {
+            "title": "Transaction confirmation",
+            "content": "A licensee shall, in respect of every contract for the exchange, purchase or sale of a virtual asset it has entered into, not later than the end of the trading day after the contract was entered into, make out and send to the consumer, a confirmation with respect to the transaction."
+          },
+          "35": {
+            "title": "Fair allocation",
+            "content": "Where a licensee has aggregated an order for a consumer's transaction with an order for its own account transaction, or with an order for another consumer's transaction, a licensee shall in the subsequent allocation-- (a) not give unfair preference to itself or to any of the consumers; and (b) give priority to satisfying orders for consumer transactions, if all orders cannot be satisfied."
+          },
+          "36": {
+            "title": "Timely allocation",
+            "content": "A licensee shall ensure that any transaction it executes are allocated to the consumers who gave the orders in a timely and equitable manner."
+          },
+          "37": {
+            "title": "Off-market transactions",
+            "content": "A licensee shall report all trades in virtual assets dealt with otherwise than at a licensed virtual asset exchange or token issuance platform provider in such manner as may be specified by the relevant regulatory authority."
+          },
+          "38": {
+            "title": "Inspections",
+            "subsections": {
+              "1": {
+                "content": "Pursuant to section 35(1) of the Act, the relevant regulatory authority may conduct routine onsite and offsite inspections to assess compliance with the Act and these Regulations."
+              },
+              "2": {
+                "content": "Where the relevant regulatory authority exercises the powers under subregulation (1), the licensee shall-- (a) grant full access to premises, systems, and records; (b) provide explanations, clarifications or data as requested; and (c) implement remedial measures within such period as the relevant regulatory authority may specify."
+              },
+              "3": {
+                "content": "In furtherance of its powers under this regulation, the relevant regulatory authority shall maintain continuous surveillance of market conduct, transactional activity and systemic risk using data analytics and reporting tools."
+              }
+            }
+          },
+          "39": {
+            "title": "Compliance officer",
+            "content": "The board of directors of a licensee shall appoint a compliance officer who shall-- (a) monitor compliance with the regulatory requirements specified by the relevant regulatory authority, and shall not be involved with any function that is the subject of compliance; (b) have sufficient authority to carry out such function; (c) have unfettered access to information; (d) have direct access to the board of directors; (e) take necessary action to rectify any non-compliance; (f) report any non-compliance issues that cannot be rectified to the board of directors; (g) report to the board of directors any material breaches of the regulatory requirements; (h) submit an annual corporate governance report to the board of directors; and (i) ensure that conflict of interest is avoided where compliance staff perform non-compliance tasks."
+          },
+          "40": {
+            "title": "Risk management",
+            "content": "For the purposes of risk management, a licensee shall comply with-- (a) any technical standards that may be issued by the relevant regulatory authority from time to time; and (b) any other international standards and risk management guidelines which may be required by the relevant regulatory authority from time to time."
+          }
+        }
+      },
+
+      "part_4": {
+        "title": "CORPORATE GOVERNANCE REQUIREMENTS",
+        "regulations": {
+          "41": {
+            "title": "Governance arrangements",
+            "subsections": {
+              "1": {
+                "content": "A licensee shall establish effective, transparent and adequate governance arrangements to ensure continued integrity of its services."
+              },
+              "2": {
+                "content": "The governance arrangements established under subregulation (1) shall include-- (a) a board of directors consisting of persons who meet the fit and proper criteria as set out in the Fourth Schedule; (b) clearly defined and documented organisational structure including ownership, oversight and management structure; (c) segregation of duties and internal control arrangements; and (d) the separation of virtual asset business by the licensee in a separate business unit from its other business units, including maintaining a separate management structure and keeping separate books of account."
+              },
+              "3": {
+                "content": "A licensee offering payment services shall establish adequate operational arrangements for its services."
+              },
+              "4": {
+                "content": "The operational arrangements established under subregulation (3) shall include-- (a) rules and procedures setting out the rights and liabilities of the licensee and the consumer; (b) the risks the consumer may incur; (c) measures to ensure prudent management of the funds collected from consumers, including measures to ensure that such funds are available at all times for repayment to consumers; (d) measures to ensure safety, security and operational reliability of the service, including contingency arrangements; and (e) the maintenance of separate records and accounts for virtual asset payment processing services from other business activities."
+              }
+            }
+          },
+          "42": {
+            "title": "Board of directors",
+            "subsections": {
+              "1": {
+                "content": "The board of directors of a licensee shall consist of-- (a) at least three members of whom one-third shall be independent directors; and (b) not more than one third of the directors shall be related to any director."
+              },
+              "2": {
+                "content": "The chairperson of the board shall not be appointed as the chief executive officer of the licensee."
+              },
+              "3": {
+                "content": "For purposes of this regulation an 'independent director' means a person who-- (a) has not been employed by the licensee in an executive capacity within the last five years; (b) is not associated to an adviser or consultant to the licensee or a member of the licensee's senior management or a person employed by the licensee in an executive capacity within the last five years; (c) is not associated to a significant consumer or supplier of the licensee or has not had any business relationship with the licensee within the last five years; (d) does not have a contract of service with the virtual asset service provider, or a member of the licensee senior management; (e) is not a close relation of an adviser or consultant to the licensee or a member of the licensee senior management; and (f) has not had any of the relationships described in paragraphs (a), (b), (c), (d) and (e) with any affiliate of the licensee."
+              }
+            }
+          },
+          "43": {
+            "title": "Role of the board of directors",
+            "subsections": {
+              "1": {
+                "content": "The board of directors of a licensee shall be collectively responsible for the conduct and governance of its virtual asset business and in particular shall-- (a) give strategic direction and provide effective oversight to a licensee; (b) ensure the integrity of the licensee's accounting and financial reporting systems; (c) manage risks affecting the regulated activity and shall regularly review the effectiveness of the risk management process; and (d) ensure that the licensee complies with the Act and other relevant laws."
+              },
+              "2": {
+                "content": "The board of directors of a licensee may establish such committees, including an audit committee, as it may consider necessary to assist it in the performance of its functions."
+              },
+              "3": {
+                "content": "The board of directors of a licensee shall not be discharged from its duties and responsibilities for matters or authority delegated to committees of the board or to the management of a licensee."
+              }
+            }
+          },
+          "44": {
+            "title": "Chief executive officer",
+            "content": "A person shall qualify for appointment or designation as the chief executive officer of a licensee under section 30(1) of the Act, if that person-- (a) meets the fit and proper requirements under section 18 of the Act; and (b) possesses professional competence in virtual assets or other fields relevant to the operations of virtual asset business."
+          },
+          "45": {
+            "title": "Finance officers and internal auditors",
+            "content": "The persons responsible for the management of finance function and the internal audit function in a licensee shall be members of the Institute of Certified Public Accountants of Kenya."
+          }
+        }
+      },
+
+      "part_5": {
+        "title": "INTERVENTION AND STATUTORY MANAGEMENT",
+        "regulations": {
+          "46": {
+            "title": "Intervention in management",
+            "subsections": {
+              "1": {
+                "content": "The relevant regulatory authority may intervene in the management of a licensee where-- (a) the licensee fails to meet its obligations to its customers; (b) the licensee fails to meet its financial obligations to other licensees; (c) the licensee fails to comply with a directive issued by the relevant regulatory authority; (d) the licensee fails to comply with the provisions of the Act."
+              },
+              "2": {
+                "content": "The relevant regulatory authority may, where necessary, intervene in the management of a licensee during a crisis to safeguard financial stability, protect customers, and preserve public confidence in the financial system."
+              },
+              "3": {
+                "content": "In any case to which this regulation applies, the relevant regulatory authority may-- (a) appoint a statutory manager in accordance with regulation 47; (b) remove any officer or employee of a licensee who, in the opinion of the relevant regulatory authority, has caused or contributed to any contravention of any provision of the Act or these Regulations or to any deterioration in the financial stability of the licensee; (c) restrict the licensee from engaging in new virtual asset services; (d) prohibit the licensee from engaging any new agents or direct the licensee to terminate any agency arrangement."
+              }
+            }
+          },
+          "47": {
+            "title": "Appointment of statutory manager",
+            "subsections": {
+              "1": {
+                "content": "Where the relevant regulatory authority exercises its power under section 15 of the Act, the relevant regulatory authority shall, by notice in the Gazette, appoint a statutory manager to manage consumer assets for a period not exceeding twelve months."
+              },
+              "2": {
+                "content": "The term of the statutory manager may be extended for a further term not exceeding twelve months with the approval of the competent court."
+              }
+            }
+          },
+          "48": {
+            "title": "Functions and powers of a statutory manager",
+            "subsections": {
+              "1": {
+                "content": "The functions of a statutory manager shall include-- (a) taking control of the assets of the licensee for purposes of safeguarding monies and virtual assets belonging to consumers; and (b) overseeing and administering the settlement of monies and virtual assets belonging to consumers."
+              },
+              "2": {
+                "content": "In the performance of his or her functions under sub regulation (1), a statutory manager shall have powers necessary for the performance of his or her functions and in particular shall have the power to declare a moratorium for purposes of safeguarding monies and virtual assets belonging to consumers."
+              },
+              "3": {
+                "content": "The moratorium referred to in sub regulation (2) shall be applied equally and without discrimination to all classes of creditors. Provided that the statutory manager may offset the liabilities owed by the licensed person to any creditor against any debts owed by that creditor to the licensed person."
+              },
+              "4": {
+                "content": "Where the statutory manager has assumed control of a licensee, that statutory manager shall have the power-- (a) to enter into any premises of licensee and take possession and control of the assets and require any person in the premises to account for and deliver up to the statutory manager possession and control of the assets; (b) to sell or otherwise dispose of any asset that is subject to an agreement creating a security interest to any person who agrees to assume the obligation secured by the security interest; (c) subject to paragraph (b), to sell or otherwise dispose of the assets and business undertaking of the licensee by private treaty or public sale or in such other manner and on such terms and conditions as the statutory manager deems appropriate; (d) to arrange for the assumption of all or any part of the liabilities of a licensee by a person; (e) to carry on the business of a licensee to the extent that the statutory manager deems necessary or beneficial; (f) to sue for, defend, compromise and settle, in the name of the licensee, any claim made by or against it; (g) in the name of the licensee, to do all acts and execute all receipts and other documents; and (h) to recover out of the assets of the licensee all the costs, charges and expenses, including remuneration, properly incurred by the statutory manager in the exercise of powers, in priority to all other claims."
+              },
+              "5": {
+                "content": "Where the statutory manager exercises one or more powers under this regulation, the statutory manager shall not, by reason of the exercise of such powers, be held to have assumed or incurred any obligation or liability of the licensee for its own account."
+              }
+            }
+          }
+        }
+      },
+
+      "part_6": {
+        "title": "REQUIREMENTS FOR OFFER OF INITIAL COIN OFFERINGS AND LISTINGS FOR VIRTUAL ASSET EXCHANGES",
+        "regulations": {
+          "49": {
+            "title": "Application for licence to issue or promote initial coin offering",
+            "subsections": {
+              "1": {
+                "content": "Pursuant to section 34 of the Act, a person seeking to issue or promote an initial coin offering shall make an application to the relevant regulatory authority for approval."
+              },
+              "2": {
+                "content": "In addition to the requirements under regulation 5, an application made under subregulation (1) shall be accompanied by-- (a) a white paper with the information provided for under regulation 53; (b) governance structure of the issuer, including the board and senior management; (c) the policies and procedures for the monitoring the cycle of the issuing and offering of an initial coin offering; (d) the information where the proceeds raised will be transferred or deposited; (e) the location where the information as required by these Regulations will be retained and will be accessible in Kenya; (f) the details and confirmation of the promoter; and (g) the application fee specified in the First Schedule."
+              },
+              "3": {
+                "content": "An applicant may withdraw an application by giving written notice, including the reasons thereof, to the relevant regulatory authority, at any time before the determination of the application."
+              }
+            }
+          },
+          "50": {
+            "title": "Determination of the application",
+            "subsections": {
+              "1": {
+                "content": "The relevant regulatory authority may object to an application where it is satisfied that-- (a) the application does not comply with the Act or these Regulations; (b) the criteria set out in section 34(4) of the Act is not met; (c) a white paper does not meet the requirements in regulation 53; (d) the promoter is not an eligible person under section 34(2) of the Act; (e) the policies and procedures for monitoring the cycle of the issuing and offering of an initial coin are insufficient for mitigating possible market abuse, mis-selling or fraud risks."
+              },
+              "2": {
+                "content": "Upon approval of an application under regulation 49(1), the relevant regulatory authority shall register the applicant's details in accordance with regulation 53."
+              },
+              "3": {
+                "content": "An initial coin offering approved under this Part shall be conducted through trading platforms approved under regulation 51."
+              }
+            }
+          },
+          "51": {
+            "title": "Approval of trading platforms",
+            "subsections": {
+              "1": {
+                "content": "A trading system or platform to be deployed by a virtual asset exchange or token issuance platform provider shall be approved by the relevant regulatory authority prior to its use."
+              },
+              "2": {
+                "content": "The trading system or platform referred to under sub regulation (1) shall-- (a) enable real-time public access to trading information; (b) incorporate mechanisms for transparent and efficient price discovery; (c) maintain a complete and tamper-proof audit trail of all transactions; (d) implement adequate cybersecurity, resilience and access control measures; and (e) retain and securely store all trading and transaction records for a period of not less than seven years beginning from the date the transaction occurred."
+              }
+            }
+          },
+          "52": {
+            "title": "Validity of approval for offer of initial coin offering",
+            "content": "An approval of an offer of an initial coin offering shall be valid for a period not exceeding twelve months."
+          },
+          "53": {
+            "title": "Publication of white paper for an initial coin offering",
+            "subsections": {
+              "1": {
+                "content": "An applicant shall publish its white paper upon receipt of notice from the relevant regulatory authority that it has no objection to the proposed issuance and promotion."
+              },
+              "2": {
+                "content": "The white paper referred to under sub regulation (1) shall provide full and accurate disclosure of information that will enable an investor to make an informed assessment before subscribing or investing and such information shall include-- (a) brief description of the directors, senior officers and advisers of the issuer including their name, designation, nationality, address, professional qualifications, related experience and any involvement or participation in a previous similar offering; (b) the objective or purpose of initial coin offering including information on the project to be managed and operated by the issuer; (c) the key characteristics of the initial coin offering; (d) identification as to whether a virtual asset offering will have different classes of holders in relation to any benefits, rights or liabilities linked to the offering; (e) a detailed description of the sustainability of the project; (f) the business plan of the issuer; (g) the targeted amount to be raised through the project and subsequent use and application of the proceeds thereafter illustrated in a scheduled timeline for drawdown and utilization of proceeds; (h) any rights, conditions or functions attached to the offering, including any specific rights; (i) the details on the determination of the accounting and the valuation treatments for the offering, including all valuation methodology and reasonable presumptions adopted in such calculation; (j) the associated challenges and risks, as well as mitigating measures thereof; (k) the information in respect to the distribution of the initial coin offering and, where applicable, the distribution policy of the issuer of initial coin offering; (l) policies on monitoring the cycle of the initial coin offering; (m) information about the person, if any, underwriting or guaranteeing the project; (n) any restrictions on the transferability of the investment made; (o) methods of payment to invest or subscribe; (p) details of refund mechanism or withdrawal rights; (q) details of the authorized status of the promoter or issuer in Kenya; and (r) intellectual property rights associated with the offerings and protection thereof."
+              },
+              "3": {
+                "content": "The initial coin white paper shall contain a clear notice that the initial coin offering is not covered by the Investor Compensation Fund."
+              },
+              "4": {
+                "content": "The board of directors of an issuer shall be responsible for the information provided in the white paper."
+              },
+              "5": {
+                "content": "A person who fails to comply with the requirements of this regulation is liable to an administrative penalty of three million shillings."
+              }
+            }
+          },
+          "54": {
+            "title": "Commencement and duration of advertising",
+            "subsections": {
+              "1": {
+                "content": "An applicant may only commence advertising of an issuance or promotion following the date on which it receives notice from the relevant regulatory authority that it has no objection to the proposed issuance or promotion."
+              },
+              "2": {
+                "content": "The applicant may only advertise the issuance or promotion for the duration specified in the application."
+              },
+              "3": {
+                "content": "A person who fails to comply with the requirements of this regulation is liable to an administrative penalty of three million shillings."
+              }
+            }
+          },
+          "55": {
+            "title": "Extension of issuance or promotion",
+            "subsections": {
+              "1": {
+                "content": "Where an applicant wishes to extend the promotion or issuance of an initial coin offering beyond the end date stated in its application, the applicant shall submit to the relevant regulatory authority an application for extension of issuance or promotions and reasons thereof of extension."
+              },
+              "2": {
+                "content": "A notice of an extension under sub regulation (1) shall be submitted not later than three months before the expiry date of the end date stated in its application."
+              },
+              "3": {
+                "content": "The relevant regulatory authority may object to the extension where-- (a) prejudice would be caused or would ensue to the financial services industry or any part thereof; (b) the continued promotion or issuance is against public policy; or (c) the continued promotion or issuance is unlikely to meet the financial objectives stated in the original application."
+              },
+              "4": {
+                "content": "An extension shall take effect where the relevant regulatory authority has no objection to the proposed change within a period of thirty working days following receipt of notice under subregulation (1)."
+              },
+              "5": {
+                "content": "An extension may only occur for a period of no more than six calendar months after approval under sub regulation (4)."
+              },
+              "6": {
+                "content": "Any subsequent offer to the public of the virtual assets shall be deemed to constitute a separate offer to the public to which the requirements of this Part shall apply."
+              },
+              "7": {
+                "content": "An additional virtual asset white paper shall be required for any subsequent offer to the public of the virtual asset."
+              }
+            }
+          },
+          "56": {
+            "title": "Change of promoter",
+            "subsections": {
+              "1": {
+                "content": "Where an applicant wishes to change the promoter named in its application, it shall submit a written notice to the relevant regulatory authority and provide reasons for the change."
+              },
+              "2": {
+                "content": "A notice provided under sub regulation (1) shall be submitted to the relevant regulatory authority not less than 15 working days before the applicant proposes to effect the change."
+              },
+              "3": {
+                "content": "The relevant regulatory authority may object to the change where-- (a) the promoter is not an eligible person under section 34(2) of the Act; (b) prejudice would be caused or would ensue to the financial services industry or any part thereof."
+              },
+              "4": {
+                "content": "A change of a promoter shall be effected where the relevant regulatory authority has no objection to the proposed change within a period of 15 working days following receipt of notice under subregulation (1)."
+              },
+              "5": {
+                "content": "A person who fails to comply with the requirements of this regulation is liable to an administrative penalty of three million shillings."
+              }
+            }
+          },
+          "57": {
+            "title": "Register",
+            "content": "The relevant regulatory authority shall maintain a register with the following information-- (a) the name and address of the issuer or promoter of initial coin offerings; (b) the date upon which the promotion or issuance is to start and to end; (c) any measures imposed by the relevant regulatory authority under the Act; (d) any other relevant information that the relevant regulatory authority deems necessary."
+          },
+          "58": {
+            "title": "Listing requirements for virtual asset exchanges and token issuance platforms",
+            "subsections": {
+              "1": {
+                "content": "A virtual asset exchange or a token issuance platform provider shall maintain an official list in respect of all virtual assets listed on the exchange or platform."
+              },
+              "2": {
+                "content": "The virtual asset exchange or a token issuance platform provider shall enter in the official list the particulars of all virtual assets that have been approved for listing."
+              },
+              "3": {
+                "content": "A virtual asset exchange or a token issuance platform provider shall only include a virtual asset in the official list where the virtual asset has attained the minimum total subscription disclosed in the white paper approved by the relevant regulatory authority in respect of the initial virtual asset offering and listing of the virtual asset."
+              },
+              "4": {
+                "content": "The official list shall, where applicable, include the following particulars in respect of each listed virtual asset-- (a) the name of the virtual asset; (b) the name of the issuer, where applicable; (c) the total number of virtual assets listed; (d) the listing date; (e) the trading commencement date; and (f) the redemption date."
+              },
+              "5": {
+                "content": "A virtual asset exchange or a token issuance platform provider shall promptly notify the relevant regulatory authority of each new listing or delisting decision and where a listing of stablecoins is undertaken, comply with all applicable reserve, redemption and disclosure requirements."
+              },
+              "6": {
+                "content": "The relevant regulatory authority shall retain the power to direct the delisting of a virtual asset where a material risk to market integrity, financial stability or consumer protection is identified."
+              }
+            }
+          }
+        }
+      },
+
+      "part_7": {
+        "title": "PROVISION RELATING TO TOKENIZATION OF REAL-WORLD ASSETS",
+        "regulations": {
+          "59": {
+            "title": "Application for virtual asset tokenization licence",
+            "subsections": {
+              "1": {
+                "content": "A person seeking to undertake the activity of virtual asset tokenization shall make an application to the relevant regulatory authority for licence."
+              },
+              "2": {
+                "content": "In addition to the requirements under regulation 5, an application for a licence to undertake the activity of virtual asset tokenization shall be accompanied by-- (a) evidence that the real-world asset can be tokenized and ownership can be established; (b) an agreement of the proposed custodian who shall hold the title and custody of the real-world asset; (c) a report by an independent valuer showing the real-world asset's fair market value; (d) evidence that the real-world asset is clear of any encumbrances; (e) rules of ownership, transferability, compliance, and profit distribution where the tokenization is based on distributed ledger technology-based smart contracts; (f) the application fee set out in the First Schedule."
+              },
+              "3": {
+                "content": "The relevant regulatory authority may require an applicant to furnish such other information, document or report in connection with the application, as it may deem necessary, for the purpose of assessing the application."
+              }
+            }
+          },
+          "60": {
+            "title": "Requirements relating to issuance of tokenised real-world assets",
+            "subsections": {
+              "1": {
+                "content": "A person seeking to undertake a virtual asset offering of a tokenised real-world asset shall make an application to the relevant regulatory authority for approval."
+              },
+              "2": {
+                "content": "An application under subregulation (1) shall be accompanied by-- (a) a white paper with the information provided for under regulation 61; (b) governance structure of the issuer, including the board and senior management; (c) the policies and procedures for the monitoring the cycle of issuance and offering of tokenised real-world assets; (d) the information where the proceeds raised will be transferred or deposited; (e) the details and confirmation of the promoter; and (f) the application fee specified in the First Schedule."
+              }
+            }
+          },
+          "61": {
+            "title": "Contents of white paper for offering of tokenized real-world asset",
+            "subsections": {
+              "1": {
+                "content": "The white paper a virtual asset offering of a tokenised real-world asset shall provide full and accurate disclosure of information that will enable an investor to make an informed assessment before subscribing or investing."
+              },
+              "2": {
+                "content": "The information under subregulation (1) shall include-- (a) brief description of the directors, senior management, key personnel and advisers of the issuer including their name, designation, nationality, address, professional qualifications, related experience and any involvement or participation in a previous similar offering; (b) the key information about the tokenized assets including their location; (c) a clear and accurate description of the rights or value that the token grants, or purports to grant, owners and/or holders of the token; (d) whether the token represents, or purports to represent, a direct right of ownership of the tokenized assets, or a fractional proportion thereof, and if so, a detailed description of how the right of ownership is established or such fractionalisation is structured; (e) if transactions in the tokenized assets are subject to legal or regulatory requirements; (f) a clear and detailed policy on the procedure for the creation and destruction of the tokens in public circulation and the consequence of such creation or destruction; (g) the custody arrangement of the tokenized assets including the custodians involved; (h) detailed assessments of risks relevant to the management, custody, investment or liquidation of the referenced real-world asset including credit risk, market risk, counterparty risk and liquidity risk; (i) details on the determination of the accounting and the valuation treatments for the offering, including all valuation methodology and reasonable assumptions adopted in such calculation; (j) associated challenges and risks, as well as mitigating measures thereof; (k) information in respect to the distribution of the token offering; (l) policies on monitoring the cycle of the token offering; (m) details of how tokens will be traded or transferred; (n) any restrictions on the transferability of the tokens; (o) methods of payment to invest or subscribe; (p) details of refund mechanism or withdrawal rights; (q) details of the status of the promoter or issuer in Kenya; (r) experience and track record of third-party vendors or service providers; (s) information on the adequacy of systems and controls in place to safeguard the operation of tokenised assets against cyber security related risks; (t) the interoperability between the distributed ledger technology networks and systems of issuers and other parties; (u) the information where proceeds raised will be transferred or deposited."
+              }
+            }
+          },
+          "62": {
+            "title": "Listing of tokenized assets",
+            "content": "A person undertaking a virtual asset offering of a tokenised real-world asset shall-- (a) create the tokens on a distributed ledger technology platform, representing fractional ownership or rights to the real-world asset; (b) code the rules of ownership, transferability, compliance, and profit distribution into distributed ledger technology platform based smart contracts; (c) distribute the tokens via a primary offering; (d) list the tokens on a licensed token issuance platform to enable liquidity and investor exit options."
+          }
+        }
+      },
+
+      "part_8": {
+        "title": "PROVISIONS RELATING TO VIRTUAL ASSET WALLET PROVIDERS AND ISSUERS OF STABLECOIN",
+        "regulations": {
+          "63": {
+            "title": "Responsibilities of a virtual asset wallet provider",
+            "subsections": {
+              "1": {
+                "content": "A licensee providing virtual asset wallet provider services shall-- (a) segregate holdings of virtual assets on behalf of their consumers from their own holdings or property, and from any other non-consumer virtual assets; (b) ensure that on the relevant distributed ledger, their consumers' virtual assets are held on separate addresses from those on which their own virtual assets or any other non-consumer virtual assets are held; (c) with respect to any internal ledger accounts, maintain separate accounts for their consumers' virtual assets and their own virtual assets or any other non-consumer virtual assets; (d) conduct regular internal and independent reconciliations of on-chain holdings against internal records and consumer entitlements, and make such records available to the relevant regulatory authority upon request; (e) obtain explicit consumer consent prior to holding virtual assets on behalf of such consumers in one or more omnibus accounts, or under any other arrangement where consumer assets are not held in separate accounts for each individual consumer under that consumer's name; (f) maintain appropriate procedures to ensure that the virtual assets held in custody shall at all times be separate and insulated from the virtual asset service business' estate; (g) not lend, use, hypothecate, pledge or otherwise use or encumber consumer assets that have been entrusted to it for safekeeping; (h) make its standard disclosures and standard consumer agreement readily accessible to consumers on such virtual asset service business' website and such disclosures shall be made in clear, concise and non-technical language; (i) maintain in its custody, a sufficient amount of each type of virtual asset to meet its obligations to consumers; (j) ensure that necessary procedures are in place to return virtual assets held on behalf of their consumers or the means of access on demand to those consumers; (k) establish, maintain, enforce, and regularly test reasonably designed written policies, procedures, and arrangements in order to-- (i) identify, in advance, the steps it intends to take in the wake of events that could affect the virtual asset business' custody of the virtual assets; (ii) enable the virtual asset business seize or freeze virtual assets, when required; (iii) enable the transfer of virtual assets held by the virtual asset business to another appropriate person; (iv) remedy mistaken, fraudulent or otherwise unauthorised transactions; (v) ensure the continued safekeeping and accessibility of virtual assets in the event of unexpected disruptions to the virtual asset business' control over its consumers' virtual assets, the rights related to those virtual assets or the means of access to the virtual assets; (l) maintain an up-to-date register of positions which records each consumer's rights to the virtual assets in the control of the virtual asset business; (m) provide their consumers, at least once every three months and at each request of the consumer concerned, with a statement of holdings of the virtual assets recorded in the name of those consumers; (n) if it outsources the custody of virtual assets-- (i) only make use of other virtual asset businesses which are licensed under the Act; (ii) notify the relevant regulatory authority of the use of other entities for the custody of virtual assets as a material change under section 26(f) of the Act; and (iii) disclose to their consumers the terms and conditions associated with such outsourcing arrangement."
+              },
+              "2": {
+                "content": "The agreement referred to in subregulation (1)(h), shall include-- (a) the general terms and conditions regarding custody of the consumer's virtual assets; (b) how the virtual asset business segregates and accounts for the consumer's virtual assets under subregulation (1)(a) to (g); (c) the beneficial and equitable interests the consumer retains in their virtual assets; (d) the limitations on the use of custodied virtual assets by virtual asset business."
+              },
+              "3": {
+                "content": "For the purposes of subregulation (1)(l), the statement of position shall state at the minimum the virtual assets concerned, their balance, their value and the transfer of virtual assets made during the period concerned."
+              },
+              "4": {
+                "content": "Where a licensee providing virtual asset wallet provider services holds virtual assets-- (a) in one or more omnibus accounts; or (b) under any other arrangement where consumer assets are not held in separate accounts for each individual consumer under that consumer's name, it shall maintain appropriate procedures and up-to-date records in order to identify, at all times, the virtual assets belonging to each consumer and to account for all consumer transactions."
+              }
+            }
+          },
+          "64": {
+            "title": "Application for a stablecoin issuance licence",
+            "subsections": {
+              "1": {
+                "content": "A person seeking to undertake a virtual asset offering of a stablecoin shall make an application to the relevant regulatory authority for licence."
+              },
+              "2": {
+                "content": "In addition to the requirements under regulation 5, an application for licence under subregulation (1) shall be accompanied by-- (a) the investment policies of the reserve assets and an assessment of how such investment policy can affect the value of reserve assets; (b) the issuer's redemption policies; (c) a white paper containing the information specified under regulation 65."
+              }
+            }
+          },
+          "65": {
+            "title": "Contents of a stablecoin white paper",
+            "subsections": {
+              "1": {
+                "content": "A virtual asset white paper for stablecoin shall contain all of the following information-- (a) information about the issuer of the stablecoin; (b) information about the stablecoin; (c) information about the offer to the public of the stablecoin or its admission to trading; (d) information on the rights and obligations attached to the stablecoin; (e) information on the underlying technology; (f) information on the risks of the stablecoin; (g) information on the principal adverse impacts on the climate and other environment-related adverse impacts of the consensus mechanism used to issue the stablecoin; (h) the method and all factors used to calculate the value of reserve assets; (i) the initial value and composition of the reserve assets; (j) the conditions and the procedure to purchase stablecoins and redeem such stablecoins against reserve assets; (k) details of the stabilisation mechanism; (l) a summary of the investment policies referred to in regulation 64(2)(a) and an explanation of how such investment policy can affect the value of reserve assets; (m) details of the arrangements for custody and management of the reserve assets; (n) the rights provided to holders of the stablecoin; (o) the date of its approval."
+              },
+              "2": {
+                "content": "The virtual asset white paper shall also include the identity of the person other than the issuer that offers the stablecoin to the public or seeks its admission to trading, and the reason why that particular person offers that stablecoin or seeks its admission to trading."
+              },
+              "3": {
+                "content": "All the information listed in subregulation (1) shall be fair, clear and not misleading."
+              },
+              "4": {
+                "content": "The virtual asset white paper shall not contain material omissions and shall be presented in a concise and comprehensible form."
+              },
+              "5": {
+                "content": "The virtual asset white paper shall contain a clear warning that-- (a) the stablecoin is not covered by investor compensation schemes; (b) the stablecoin is not covered by deposit insurance; (c) the issuer of the stablecoin is solely responsible for the contents of the virtual asset white paper."
+              },
+              "6": {
+                "content": "The virtual asset white paper shall contain a summary, which shall in brief and non-technical language provide-- (a) key information about the offer to the public of the stablecoin or the intended admission to trading of such stablecoin; (b) appropriate information about the characteristics of the virtual assets concerned in order to help prospective holders of the virtual assets to make an informed decision; (c) a warning that-- (i) it should be read as an introduction to the virtual asset white paper; (ii) the prospective holder should base any decision to purchase the stablecoin on the content of the virtual asset white paper as a whole and not on the summary alone; (d) state that holders of the stablecoin have a right of redemption at any time and at par value as well as the conditions for redemption."
+              },
+              "7": {
+                "content": "Issuers of stablecoins shall notify the relevant regulatory authority of the virtual asset white paper at least 30 days before the date of their publication."
+              },
+              "8": {
+                "content": "Any significant new factor, any material mistake or any material inaccuracy that is capable of affecting the assessment of the stablecoin shall be described in a modified virtual asset white paper drawn up by the issuers, notified to the relevant regulatory authority and published on the issuers' websites upon approval by the relevant regulatory authority."
+              }
+            }
+          },
+          "66": {
+            "title": "Publication of the virtual asset white paper for stablecoins",
+            "subsections": {
+              "1": {
+                "content": "Upon approval by the relevant regulatory authority, a stablecoin issuer shall publish on its website the approved virtual asset white paper and, where applicable, the modified virtual asset white paper."
+              },
+              "2": {
+                "content": "The issuer of a stablecoin shall-- (a) for the purposes of the issuer's duty to publish the white paper from the starting date of the offer to the public of the stablecoin or the admission to trading of that stablecoin; (b) ensure that the approved white paper and modified white paper remain accessible for the duration that the relevant stablecoin is held by the public; (c) publish as soon as possible on its website-- (i) any changes to the information referred to in the white paper; (ii) any event that has or is likely to have a significant impact on the value of the stablecoin or on the reserve assets."
+              }
+            }
+          },
+          "67": {
+            "title": "Requirements for the offer to the public or admission to trading of stablecoin",
+            "subsections": {
+              "1": {
+                "content": "A person shall not make an offer to the public or seek the admission to trading of a stablecoin, unless that person-- (a) is the issuer of such stablecoin (b) obtained approval from the relevant regulatory authority to publish the virtual asset white paper; and (c) has published that virtual asset white paper in accordance with regulation 65."
+              },
+              "2": {
+                "content": "Notwithstanding sub regulation (1), upon the written consent of the issuer, other persons may offer to the public or seek the admission to trading of the stablecoin."
+              },
+              "3": {
+                "content": "Issuers of stablecoins shall, at least 90 days before the date on which they intend to offer to the public those stablecoins or seek their admission to trading, notify the relevant regulatory authority of that intention."
+              }
+            }
+          },
+          "68": {
+            "title": "Issuance and redeemability of stablecoins",
+            "subsections": {
+              "1": {
+                "content": "A holder of a stablecoin shall have a claim against the issuers of the stablecoin."
+              },
+              "2": {
+                "content": "Issuers of stablecoins shall issue stablecoins at par value and on the receipt of funds."
+              },
+              "3": {
+                "content": "Upon request by a holder of a stablecoin, the issuer of that stablecoin shall redeem it, at any time and at par value, by paying the monetary value of the stablecoin held to the holder of the stablecoin."
+              },
+              "4": {
+                "content": "Issuers of stablecoins shall prominently state the conditions for redemption in the virtual asset white paper."
+              },
+              "5": {
+                "content": "The redemption of stablecoins shall not be subject to a fee."
+              }
+            }
+          },
+          "69": {
+            "title": "Prohibition of granting interest",
+            "subsections": {
+              "1": {
+                "content": "Issuers of stablecoins shall not grant interest in relation to stablecoins."
+              },
+              "2": {
+                "content": "A licensee shall not grant interest when providing virtual asset services related to stablecoins."
+              },
+              "3": {
+                "content": "Any remuneration or any other benefit related to the length of time during which a holder of a stablecoin holds such stablecoin shall be treated as interest and that includes net compensation or discounts, with an effect equivalent to that of interest received by the holder of the stablecoin, directly from the issuer or from third parties, and directly associated to the stablecoin or from the remuneration or pricing of other products."
+              }
+            }
+          },
+          "70": {
+            "title": "Modification of published virtual asset white papers",
+            "subsections": {
+              "1": {
+                "content": "An issuer of stablecoins shall seek the approval of the relevant regulatory authority on any intended change of their business model likely to have a significant influence on the purchase decision of any holders or prospective holders of stablecoins, which occurs after licensing or after the approval of the virtual asset white paper."
+              },
+              "2": {
+                "content": "The changes envisaged under subregulation (1) include any material modifications to-- (a) the governance arrangements, including reporting lines to the management body and risk management framework; (b) the reserve assets and the custody of the reserve assets; (c) the rights granted to the holders stablecoins; (d) the mechanism through which a stablecoin is issued and redeemed; (e) the protocols for validating the transactions in stablecoins; (f) the functioning of issuers' proprietary distributed ledger technology, where the stablecoins are issued, transferred and stored using such a distributed ledger technology; (g) the mechanisms to ensure the liquidity of stablecoins; (h) the arrangements with third-party entities, including for managing the reserve assets and the investment of the reserve, the custody of reserve assets, and, where applicable, the distribution of the stablecoins to the public; (i) the complaints-handling procedures."
+              },
+              "3": {
+                "content": "A request for approval under subregulation (1) shall be accompanied by a draft modified virtual asset white paper and ensure that the order of the information appearing therein is consistent with that of the original virtual asset white paper."
+              },
+              "4": {
+                "content": "An issuer of stablecoins shall seek the approval of the relevant regulatory authority before the intended changes take effect."
+              },
+              "5": {
+                "content": "Where the relevant regulatory authority approves the modified virtual asset white paper, it shall require the issuer of the stablecoin-- (a) to put in place mechanisms to ensure the protection of holders of the stablecoins, when a potential modification of the issuer's operations can have a material effect on the value, stability, or risks of the stablecoins or the reserve assets; (b) to take any appropriate corrective measures to address concerns related to market integrity and financial stability."
+              }
+            }
+          },
+          "71": {
+            "title": "Liability of issuers of stablecoins for information given in a virtual-asset white paper",
+            "subsections": {
+              "1": {
+                "content": "Where an issuer of a stablecoin has provided in its virtual asset white paper or in a modified virtual asset white paper, information that is not complete, fair or clear, or that is misleading, that issuer and its directors, significant shareholders, senior officers, and external auditors shall be liable to a holder of such stablecoin for any loss incurred due to that infringement."
+              },
+              "2": {
+                "content": "Any contractual exclusion or limitation of civil liability as referred to in subregulation (1) shall be deprived of legal effect."
+              },
+              "3": {
+                "content": "It shall be the responsibility of the holder of the stablecoin to present evidence indicating that the issuer of that stablecoin has infringed these Regulations by providing in its virtual asset white paper or in a modified virtual asset white paper information that is not complete, fair or clear, or that is misleading and that reliance on such information had an impact on the holder's decision to purchase, sell or exchange that stablecoin."
+              },
+              "4": {
+                "content": "The issuer and its senior officers, directors, significant shareholders shall not be liable for loss suffered as a result of reliance on the information provided in a summary, except where the summary-- (a) is misleading, inaccurate or inconsistent when read with the other parts of the virtual asset white paper; or (b) does not provide, when read with the other parts of the virtual asset white paper, key information in order to aid prospective holders when considering whether to purchase such stablecoins."
+              }
+            }
+          },
+          "72": {
+            "title": "Stablecoin reserve assets",
+            "subsections": {
+              "1": {
+                "content": "The issuer of a stablecoin shall-- (a) fully back such stablecoins with reserve assets, such that the value of the reserve assets shall at all times be at least equal to the nominal value of all outstanding units of the stablecoin; (b) only issue stablecoins whose reserve assets consist of one or a combination of the following-- (i) cash including central bank reserve deposits and bank deposits; (ii) government securities with residual maturity of not more than ninety days; (iii) repurchase agreements with a maturity of not more than seven days backed by cash including central bank reserve deposits and bank deposits; (c) ensure that reserve assets of each stablecoin are segregated from the operating assets of the issuer and the reserve assets of any other stablecoins; (d) make reserve assets available for examination and for verification of the issuer's disclosures upon request of relevant regulatory authority or as otherwise specified by relevant regulatory authority; (e) ensure that the reserve assets are sufficiently liquid to enable the issuer to fund redemption requests; (f) for the purposes of complying with its obligations under this sub-regulation, employ methods of calculating the valuation of reserve assets which are in accordance with generally accepted international standards on auditing or such standards as the relevant regulatory authority may recognise; (g) maintain appropriate procedures to ensure that the reserve assets shall at all times be separate and insulated from issuer's estate such that creditors of the issuer have no recourse on the reserve assets held in custody, in particular in the event of insolvency; (h) ensure that the reserve of assets is composed and managed in such a way that-- (i) the risks associated to the assets referenced by the stablecoins are covered; (ii) the liquidity risks associated to the permanent rights of redemption of the holders are addressed; (i) ensure that the reserve of assets is legally segregated from the issuers' estate, as well as from the reserve of assets of other stablecoins, in the interests of the holders of stablecoins, so that creditors of the issuers have no recourse to the reserve of assets, in the event of insolvency."
+              },
+              "2": {
+                "content": "Stablecoin issuers that offer two or more stablecoins to the public shall operate and maintain segregated pools of reserves of assets for each stablecoin and each of those pools of reserves of assets shall be managed separately."
+              },
+              "3": {
+                "content": "A stablecoin issuer shall ensure that the issuance and redemption of stablecoins is always matched by a corresponding increase or decrease in the value of the reserve assets."
+              }
+            }
+          },
+          "73": {
+            "title": "Custody of reserve assets",
+            "subsections": {
+              "1": {
+                "content": "Stablecoin issuers shall establish, maintain and implement custody policies, procedures and contractual arrangements that ensure at all times that-- (a) the reserve assets are not encumbered nor pledged as a financial collateral arrangement; (b) the reserve assets are held in custody in accordance with these Regulations; (c) they have prompt access to the reserve assets to meet any requests for redemption from the holders of stablecoins; (d) concentrations of the custodians of reserve assets are avoided; (e) risk of concentration of reserve assets is avoided."
+              },
+              "2": {
+                "content": "The reserve assets shall be held in custody by a custodian approved by the Central Bank of Kenya."
+              },
+              "3": {
+                "content": "Issuers of stablecoins shall ensure that the reserve assets held in custody are protected against claims of the custodians' creditors."
+              }
+            }
+          },
+          "74": {
+            "title": "Investment of funds received in exchange for stablecoin",
+            "subsections": {
+              "1": {
+                "content": "Stablecoin issuers shall ensure that funds received by in exchange for stablecoins shall comply with the following-- (a) at least 30 percent of the funds received is held in accounts in commercial banks in Kenya segregated for processing funds related to the issuance and redemption of stablecoin; (b) the remaining funds received are invested in secure, low-risk assets in Kenya that qualify as high-quality liquid assets with minimal market risk, credit risk and concentration risk; and (c) for fiat-referenced stablecoin, the reserve assets should be denominated in the same official currency as the one referenced by the fiat-referenced stablecoin."
+              },
+              "2": {
+                "content": "The financial instruments in which the reserve of assets is invested shall be held in custody."
+              },
+              "3": {
+                "content": "All profits or losses, including fluctuations in the value of the financial instruments referred to in sub-regulations (1), and any counterparty or operational risks that result from the investment of the reserve of assets shall be borne by the stablecoin issuer."
+              }
+            }
+          },
+          "75": {
+            "title": "Ongoing information to holders of stablecoins",
+            "subsections": {
+              "1": {
+                "content": "Stablecoin issuers shall in a clear, accurate and transparent manner disclose, in a publicly and easily accessible place on their website, the amount of stablecoins in circulation, and the value and composition of the reserve of assets and such information shall be updated at least monthly."
+              },
+              "2": {
+                "content": "Stablecoin issuers shall publish as soon as possible in a publicly and easily accessible place on their website a brief, clear, accurate and transparent summary of the audit report, as well as the full and unredacted audit report, in relation to the reserve of assets."
+              },
+              "3": {
+                "content": "Stablecoin issuers shall as soon as possible and in a clear, accurate and transparent manner disclose, in a publicly and easily accessible place, on their website any event that has or is likely to have a significant effect on the value of the stabecoins or on the reserve of assets."
+              }
+            }
+          },
+          "76": {
+            "title": "Identification, prevention, management and disclosure of conflicts of interest",
+            "subsections": {
+              "1": {
+                "content": "Stablecoin issuers shall implement and maintain effective policies and procedures to identify, prevent, manage and disclose conflicts of interest between themselves and-- (a) their shareholders or members; (b) any shareholder or member, whether direct or indirect, that has a qualifying holding in the issuers; (c) the members of their management body; (d) their employees; (e) the holders of stablecoin; (f) any third-party providing services to the stablecoin issuer."
+              },
+              "2": {
+                "content": "Stablecoin issuers shall take all appropriate steps to identify, prevent, manage and disclose conflicts of interest arising from the management and investment of the reserve of assets referred."
+              },
+              "3": {
+                "content": "Stablecoin issuers shall, in a prominent place on their website, disclose to the holders of their stablecoins the general nature and sources of conflicts of interest referred to in sub-regulation (1) and the steps taken to mitigate them."
+              },
+              "4": {
+                "content": "The disclosure referred to in subregulation (3) shall be sufficiently precise to enable the prospective holders of their stablecoin to make an informed purchasing decision about the stablecoin."
+              }
+            }
+          },
+          "77": {
+            "title": "Redemption of stablecoins",
+            "subsections": {
+              "1": {
+                "content": "Redemption of stablecoins shall be subject to the stablecoin issuer's terms and conditions as approved by relevant regulatory authority."
+              },
+              "2": {
+                "content": "Stablecoin issuers shall establish a policy on consumers' right of redemption setting out-- (a) the conditions, including thresholds, periods and timeframes, for holders of stablecoins to exercise such right of redemption; (b) the mechanisms and procedures to ensure the redemption of the stablecoin; (c) the valuation, or the principles of valuation, of the stablecoin and of the reserve assets when the right of redemption is exercised by the holder of stablecoin; (d) the conditions for settlement of the redemption; (e) measures that the stablecoin issuer takes to adequately manage increases or decreases in the reserve of assets in order to avoid any adverse impacts on the market of the reserve assets."
+              },
+              "3": {
+                "content": "Where a stablecoin issuer, when selling a stablecoin, accepts payment in the Kenya Shilling, they shall always provide an option to redeem the stablecoin in the Kenya Shilling."
+              },
+              "4": {
+                "content": "The redemption policies referred to in subregulation (2) shall-- (a) be clear and conspicuous; (b) confer on any holder of a stablecoin, a right to redeem units of the stablecoin from the issuer on demand at par value of the underlying unit of the currency; (c) clearly disclose the meaning, timing and conditions of redemption."
+              },
+              "5": {
+                "content": "Upon request by a holder of a stablecoin, a stablecoin issuer shall redeem by paying an amount in fiat, equivalent to the market value of the stablecoin."
+              },
+              "6": {
+                "content": "The redemption of stablecoins shall not be subject to a fee."
+              },
+              "7": {
+                "content": "The business continuity plan of a stablecoin issuer shall include measures by the stablecoin issuer to restore compliance with the requirements applicable to the reserve of assets in cases where the issuer fails to comply with those requirements."
+              }
+            }
+          },
+          "78": {
+            "title": "Marketing, communications of stablecoin issuance",
+            "subsections": {
+              "1": {
+                "content": "Marketing communications relating to an offer to the public of a stablecoin, or to the admission to trading of such stablecoin, shall comply with all the following requirements-- (a) the marketing communications are clearly identifiable as such; (b) the information in the marketing communications is fair, clear and not misleading; (c) the information in the marketing communications is consistent with the information in the virtual asset white paper; (d) the marketing communications clearly state that a virtual asset white paper has been published and clearly indicate the address of the website of the issuer of the stablecoin, a telephone number, and an email address to contact the issuer."
+              },
+              "2": {
+                "content": "Marketing communications shall contain a clear and unambiguous statement that the holders of the stablecoin have a right of redemption against the issuer at any time and at par value."
+              },
+              "3": {
+                "content": "Marketing communications and any modifications thereto shall be published on the issuer's website."
+              },
+              "4": {
+                "content": "Marketing communications shall be notified to the relevant regulatory authority upon request."
+              },
+              "5": {
+                "content": "No marketing communications shall be disseminated prior to the publication of the virtual asset white paper but such restriction does not affect the ability of the issuer of the stablecoin to conduct market soundings."
+              }
+            }
+          },
+          "79": {
+            "title": "Audits, review and reports",
+            "content": "The issuer of a stablecoin shall appoint an approved auditor to-- (a) conduct an annual review of its systems, process and procedures and other internal controls with respect to its compliance with the requirements of these Regulations; (b) on a monthly basis, conduct an examination of the issuer's reserve assets with respect to its compliance with these Regulations and provide a proof of reserve report by an independent approved auditor to the relevant regulatory authority within ten days of the start of the following month; (c) conduct, on an annual basis, a review of the issuer's-- (i) redemption policies to determine whether the policies meet the requirements of these Regulations; and (ii) compliance with its redemption policies."
+          },
+          "80": {
+            "title": "Delisting or halting of stablecoin issuance",
+            "content": "The relevant regulatory authority may, prohibit or otherwise limit the issuance or use of a stablecoin before or after an issuer which has been approved in accordance with regulation 5, and may require that any such issuer delist, halt, or otherwise limit or curtail activity with respect to such stablecoin."
+          },
+          "81": {
+            "title": "Stablecoin issuers reporting requirements",
+            "subsections": {
+              "1": {
+                "content": "Issuers of stablecoins shall report on a monthly basis to the relevant regulatory authority the following information-- (a) the number of holders; (b) the value, circulation and peak values of the stablecoins; (c) the average number and average aggregate value of transactions per day during the relevant quarter; (d) the number of consumers and new account holders; (e) the composition of reserve assets in respect of the stablecoin; and (f) instances of de-pegging of the stablecoin."
+              },
+              "2": {
+                "content": "In addition to the reports under subregulation (1), a licensee shall, on daily basis, report average number and average aggregate value of transactions per day."
+              }
+            }
+          }
+        }
+      },
+
+      "part_9": {
+        "title": "CAPITAL AND FINANCIAL REQUIREMENTS",
+        "regulations": {
+          "82": {
+            "title": "Minimum financial and capital requirements",
+            "subsections": {
+              "1": {
+                "content": "A licensee shall, at all times, have capital and other financial requirements of such nature and amount that is commensurate to the scale, risk and the complexity of the licensee based on its authorised activities."
+              },
+              "2": {
+                "content": "In determining whether a licensee has adequate capital and other financial requirements under sub regulation (1), the relevant regulatory authority, where applicable, shall establish the ability of the licensee to have-- (a) and maintain the paid-up capital and liquid capital at the amount specified in the Fifth Schedule; (b) a proper accounting record framework established, documented and maintained; (c) adequate financial reporting mechanisms; (d) and maintain the required insurance coverage."
+              },
+              "3": {
+                "content": "A licensee shall, at the time of licensing and at all times thereafter, maintain core capital of not less than the paid-up capital prescribed in the Fifth Schedule to these Regulations."
+              },
+              "4": {
+                "content": "The issued share capital shall be regarded as paid-up only where-- (a) the consideration has been received in cash; or (b) the consideration has been received in other acceptable consideration approved by the relevant regulatory authority, which shall be capable of objective valuation and immediate realization."
+              },
+              "5": {
+                "content": "The following shall not constitute paid-up capital for the purposes of this regulation-- (a) unpaid, partly paid or contingent capital commitments; (b) shareholder loans or advances; (c) capital raised through borrowed funds, whether directly or indirectly; or (d) revaluation reserves or internally generated intangible assets."
+              },
+              "6": {
+                "content": "Where a licensee intends to or has been authorised to carry out more than one virtual asset service, the licensee shall hold the amount of paid-up capital under this regulation for each licensed activity."
+              },
+              "7": {
+                "content": "The relevant regulatory authority may require a licensee to increase the paid-up capital under this regulation, as it may deem necessary, depending on the risk profile of the virtual asset service."
+              },
+              "8": {
+                "content": "The core capital maintained under these Regulations shall be unencumbered and shall not be-- (a) pledged, charged, or otherwise subjected to any form of security; (b) subject to any contractual or legal restriction that impairs its availability to absorb loss; or (c) repayable, redeemable or callable at the initiative of any shareholder or third party."
+              },
+              "9": {
+                "content": "The relevant regulatory authority may require a licensee to furnish evidence that its core capital is free from any encumbrance or obligation."
+              },
+              "10": {
+                "content": "A licensee shall ensure that its core capital does not fall below the prescribed minimum at any time."
+              },
+              "11": {
+                "content": "A licensee shall ensure that its shareholder funds does not fall below the prescribed minimum paid-up capital at all times."
+              },
+              "12": {
+                "content": "A licensee shall at all times ensure that it maintains adequate liquid capital as prescribed in the Fifth Schedule."
+              },
+              "13": {
+                "content": "Where the core capital of a licensee falls, or is likely to fall, below the prescribed minimum, the licensee shall-- (a) immediately notify the relevant regulatory authority, in writing; and (b) submit a remedial capital restoration plan for approval by the relevant regulatory authority."
+              },
+              "14": {
+                "content": "The relevant regulatory authority may impose such enforcement actions as it considers appropriate where a licensee fails to comply with the capital adequacy requirements under these Regulations."
+              }
+            }
+          },
+          "83": {
+            "title": "Misrepresentation of capital position",
+            "content": "A licensee shall not engage in any arrangement or transaction the effect of which is to temporarily inflate or misrepresent its capital position for purposes of meeting the requirements of this Act."
+          },
+          "84": {
+            "title": "Role of virtual asset manager in relation to capital position and use of funds",
+            "subsections": {
+              "1": {
+                "content": "A virtual asset manager shall maintain, at all times, sufficient risk-based capital to cover operational and technology-related risks, in accordance with the guidelines issued by the relevant regulatory authority."
+              },
+              "2": {
+                "content": "A virtual asset manager managing consumer funds shall appoint a custodian licenced in Kenya to safeguard the funds."
+              },
+              "3": {
+                "content": "Where a virtual asset manager invests in or through a related company, that investment shall not exceed ten percent of the value of the total virtual assets under management, unless otherwise approved by the relevant regulatory authority."
+              },
+              "4": {
+                "content": "For purposes of this subregulation (3), a 'related company' means a holding company, subsidiary, or any entity under common control or substantially of the same shareholders."
+              }
+            }
+          },
+          "85": {
+            "title": "Insurance coverage",
+            "subsections": {
+              "1": {
+                "content": "A licensee shall hold and maintain an insurance coverage allowing for the necessary protection and coverage of consumers' virtual assets, that is commensurate with the level of risks and the scale of the proposed virtual asset service."
+              },
+              "2": {
+                "content": "Where the licensee has demonstrated that it has exhausted all means in obtaining the insurance coverage under sub regulation (1), the licensee shall submit, for approval to the relevant regulatory authority, a proposal in respect of an alternative means of insurance coverage to address the level of risks and the scale of the proposed business."
+              },
+              "3": {
+                "content": "All insurance policies shall be held and maintained with an insurer licensed in Kenya or an insurer in a jurisdiction outside of Kenya which has been approved by the relevant regulatory authority."
+              },
+              "4": {
+                "content": "The insurance policies may be held in the name of another entity within the licensee's group provided that the relevant insurance policy-- (a) explicitly states that the licensee is an insured party; and (b) states the nature and the level of cover applicable to the licensee."
+              },
+              "5": {
+                "content": "A licensee shall maintain appropriate insurance cover against cyber security risks including theft, loss of keys, or operational failure."
+              }
+            }
+          },
+          "86": {
+            "title": "Accounting records",
+            "subsections": {
+              "1": {
+                "content": "A licensee shall keep accurate accounting records which are able to show and explain its transactions, whether are effected on its own behalf or on behalf of the consumers and that-- (a) disclose with reasonable accuracy, at any time, the financial position of the licensee at that time; and (b) enable the licensee to prepare a statement of comprehensive income and statement of the financial position as at any time and which comply with the requirements of these Regulations."
+              },
+              "2": {
+                "content": "The accounting records shall, in particular, contain-- (a) entries from day to day of all sums of monies and virtual assets, including initial coin offerings, received, exchanged, sold, transferred and held in custody; (b) details on administrative expenditures, receipts of commissions and charges imposed for transactions by the licensee; (c) a record of all assets and liabilities of the licensee including any commitments or contingent liabilities; (d) entries from day-to-day transactions of all virtual assets, including initial coin offerings, distinguishing those which are made by the licensee on its own account and those which are made by and on behalf of others; (e) entries from day-to-day of all consumers' monies, virtual assets, initial coin offerings which is paid into or out of a consumer's bank account or consumer's virtual asset, initial coin offerings and initial coin offerings account or any wallet; (f) record of balances on consumer's account."
+              },
+              "3": {
+                "content": "The accounting records that a licensee are required to keep shall conform to the requirements of international accounting standards."
+              },
+              "4": {
+                "content": "A licensee shall preserve, in original digital form, the accounting records that is required to be kept under this regulation for at least seven years from the date of completion of the transactions or operations to which they each relate."
+              },
+              "5": {
+                "content": "The accounting records which are required to be kept under this regulation shall, at any time during the period in which they are required to be preserved, be produced for inspection to the relevant regulatory authority, or any person authorised by the relevant regulatory authority to receive the records, on demand at a reasonable time and place as may be specified by the relevant regulatory authority or the authorised person."
+              }
+            }
+          },
+          "87": {
+            "title": "Appointment of an external auditor",
+            "subsections": {
+              "1": {
+                "content": "A licensee shall, with the approval of the relevant regulatory authority, appoint an external auditor who shall be a member of good standing of the Institute of Certified Public Accountants of Kenya to carry out an audit of the transactions in its business."
+              },
+              "2": {
+                "content": "The relevant regulatory authority may require an auditor appointed under sub regulation (1) to-- (a) submit to the relevant regulatory authority such information or report as the relevant regulatory authority may require in relation to the audit carried out by the auditor; (b) extend the scope of an audit of the business and affairs of the business of the virtual asset service provider and to submit a report to the relevant regulatory authority; and (c) carry out any examination or establish any procedure in any particular case."
+              },
+              "3": {
+                "content": "A person appointed as an auditor under this regulation shall be appointed annually and may serve for a maximum period of four consecutive financial years."
+              },
+              "4": {
+                "content": "The relevant regulatory authority may decline to approve, or revoke the appointment of an external auditor, if the external auditor has contravened the provisions of the Act and guidelines or circulars issued by the relevant regulatory authority."
+              }
+            }
+          },
+          "88": {
+            "title": "Auditor's report",
+            "content": "Where the auditor's report is qualified on the grounds of the auditor's uncertainty as to the completeness or accuracy of the accounting records under regulation 86, the auditor shall, as soon as is practicable and in any event within seven days, report it in writing to the relevant regulatory authority and the licensee."
+          },
+          "89": {
+            "title": "Reports by the licensee",
+            "content": "Every licensee shall submit to the relevant regulatory authority-- (a) semi-annual financial statements within one month after the end of the half year period; (b) monthly financial statements within fifteen days from the end of the month; (c) monthly and annual periodic capital adequacy or liquidity statements; (d) audited annual financial statements within three months after the end of the financial year; (e) promptly disclose any event that could materially affect solvency, valuation of virtual assets or consumer protection."
+          },
+          "90": {
+            "title": "Reports by virtual asset exchange and token issuance platform provider",
+            "content": "Each virtual asset exchange or token issuance platform provider shall submit a monthly report to the relevant regulatory authority which shall include-- (a) a summary of all virtual assets listed, suspended, or delisted during the financial year; (b) aggregate trading volumes and values; (c) fiat and virtual assets; (d) daily electronic trading reports, including transaction volumes and price movements; (e) quarterly reports of all transactions, including off-platform trades and transfers; (f) an annual audited financial statement prepared in accordance with applicable accounting standards."
+          },
+          "91": {
+            "title": "Reports by virtual asset managers",
+            "content": "Every licensee undertaking virtual asset management shall submit the relevant regulatory authority-- (a) quarterly reports of assets under management by virtual asset managers within 21 days from the end of the quarter; (b) semi-annual financial statements of assets under management; (c) audited financial statements of assets under management."
+          },
+          "92": {
+            "title": "Financial year",
+            "content": "The financial year of every licensed person shall be the period of twelve months ending on the 31st December in each year."
+          }
+        }
+      },
+
+      "part_10": {
+        "title": "CYBER SECURITY MEASURES AND SYSTEMS AND CONTROL",
+        "regulations": {
+          "93": {
+            "title": "Cyber security strategy",
+            "subsections": {
+              "1": {
+                "content": "Pursuant to section 28(1) of the Act, a licensee shall have in place cyber security measures for the establishment and maintenance of appropriate systems and controls for managing cyber security and operational risks that may arise from inadequacies or failures in its processes and systems."
+              },
+              "2": {
+                "content": "In giving effect to the provisions in subregulation (1), a licensee shall-- (a) have in place organisational, human and technological resources to prevent system and process failures or in the event of such a failure, to identify them and undertake the necessary steps for prompt rectification; (b) ensure that it has in place arrangements for the continuity of operations in the event that a significant process or system becomes unavailable or is destroyed; and (c) ensure adequate monitoring mechanisms are in place to quickly detect and prevent cyber incidents and periodically evaluate the effectiveness of systems and controls."
+              },
+              "3": {
+                "content": "Furtherance to the requirements provided for under subregulation (2), a licensee shall-- (a) ensure that there is adequate senior officers oversight over its cyber security systems with clearly defined roles, responsibilities and accountability for staff implementing, managing and overseeing the effectiveness of the licensee's cyber security strategy and policy; (b) ensure that the documentation of its internal processes and systems is maintained and distributed in managing operational and cyber security risk; and (c) ensure that all staff receive appropriate training in relation to cyber security on a periodic basis."
+              },
+              "4": {
+                "content": "A licensee shall review its cyber security strategy and policy regularly, and at least annually, in response to changes in cyber security risks, as well as in response to a cyber security incident or to any issues or weaknesses identified specific to the licensee operation."
+              },
+              "5": {
+                "content": "Further to subregulation (4), the licensee shall submit the results of its review of the cyber security strategy and policy, and any remedial actions needed, to its board of directors as soon as practicable and, in any event, no later than one month after the date of the review."
+              },
+              "6": {
+                "content": "Where a person acts in contravention of this regulation, the relevant regulatory authority shall take such enforcement action as it deems necessary under the Act, and may impose an administrative penalty of three million shillings."
+              }
+            }
+          },
+          "94": {
+            "title": "Systems and control",
+            "subsections": {
+              "1": {
+                "content": "A licensee shall at all times ensure that its systems and controls are adequate and suitable for the performance of a virtual asset business and appropriate to the size and nature of its operations."
+              },
+              "2": {
+                "content": "The systems and controls in subregulation (1) shall be in relation to the-- (a) transmission of information to purchasers and consumers using its distributed ledger technology platform; (b) assessment and management of risks; (c) safeguarding and administration of assets which belong to purchasers or its consumers; and (d) the fitness and propriety of its employees and the adequacy of the technology resources."
+              },
+              "3": {
+                "content": "In maintaining appropriate systems and controls under subregulation (1) and (2), a licensee shall have regard to-- (a) confidentiality, including the safe storage of information and transmission of data in accordance with clear protocols, which may require firewalls within a system, as well as entry restrictions and compliance with relevant data protection laws; (b) accessibility of the system to authorized persons, employees of the licensee and as the case maybe, to authorized employees of the relevant regulatory authority; (c) integrity, including safeguarding the accuracy and completeness of information and data through its system and control; (d) maintenance of systems and infrastructure, including proper code version control, implementation of updates and resolution; (e) procedures to address updates to technological infrastructure, including forks."
+              },
+              "4": {
+                "content": "The systems and control of a licensee shall include the following audit functions-- (a) vulnerability assessment, risk assessment and penetration testing of those systems conducted on a bi-annual basis during the first year of licensing and at least once a year for subsequent years; (b) audit trail systems that-- (i) track and maintain information and data that allows for the complete and accurate reconstruction of all financial transactions and accounting; (ii) protect the integrity of data stored and maintained as a part of the audit trail from alteration or tampering; (iii) protect the integrity of hardware from alteration or tampering, including by limiting electronic and physical access permissions to hardware and maintaining logs of physical access to hardware that allows for event reconstruction; (iv) log system events, including but not limited to access and alterations made to the audit trail systems and cyber security events; (v) maintain records produced as part of the audit trail; (vi) the effectiveness of the safe keeping, storage and accessibility of the virtual assets being kept by the licensee."
+              },
+              "5": {
+                "content": "Subject to the approval of the relevant regulatory authority, a licensee shall appoint a qualified independent party to audit its systems and control, as and when may be required by the relevant regulatory authority, and provide a written opinion to the relevant regulatory authority that the licensee's program and controls are suitably designed and operating effectively to meet the licensee's obligations under these Regulations."
+              },
+              "6": {
+                "content": "Further to subregulation (5), in making an appointment, a licensee shall consider and state in the resolution making the appointment whether the independent party conducting the audit, as the case may be-- (a) holds the required qualifications and competence, has proven experience and adequate resources to perform the appointee's functions; and (b) is independent of the licensee in that the appointee or, in the case of a firm, any of its partners has no relationship with, or interest in, the licensee, any of its group of companies, nor has any connection with any director or substantial shareholder of the licensee that could reasonably be perceived as materially affecting the exercise by the appointee of an independent mind and judgement in the performance of the appointee's duties."
+              },
+              "7": {
+                "content": "A licensee shall carry out regular reviews of its systems and control."
+              },
+              "8": {
+                "content": "Where a person acts in contravention of sub regulations (2) and (3), the relevant regulatory authority may impose an administrative penalty-- (a) in the case of an individual, a fine not exceeding three million shillings; or (b) in the case of a company, a fine not exceeding ten million shillings."
+              }
+            }
+          },
+          "95": {
+            "title": "Cyber security audit",
+            "subsections": {
+              "1": {
+                "content": "The relevant regulatory authority may at any time-- (a) commission an audit of a licensee; or (b) call for an investigation of the licensee."
+              },
+              "2": {
+                "content": "The relevant regulatory authority may-- (a) require an officer of the licensee to produce or furnish to the relevant regulatory authority officer making an examination, within a reasonable time-- (i) such books of accounts and any other documents in the custody or power of the licensee; or (ii) statements or information relating to the affairs of the licensee as may be required by the examining officer; (b) at any time, enter any premises where a licensee is carrying on virtual asset business, or any premises where the relevant regulatory authority reasonably suspects that any virtual asset business is carried out in contravention of these Regulations."
+              }
+            }
+          },
+          "96": {
+            "title": "Reporting of cyber security risk",
+            "subsections": {
+              "1": {
+                "content": "Where the licensee discovers a cyber security risk as a result of a cyber security event, it shall notify the relevant regulatory authority of any attempt within twenty-four hours."
+              },
+              "2": {
+                "content": "Further to subsection (1), for any successful attempt, the licensee shall provide a report within five working days on whether the cyber security incident-- (a) affects or has affected the services or network and information systems that support critical or important functions of the licensee; (b) affects or has affected services for which the licensee has been authorized to provide; (c) constitutes or has constituted a malicious and unauthorized access to the network and information systems of the licensee."
+              },
+              "3": {
+                "content": "The report under subsection (2) shall include the remedial actions to mitigate cyber security incident and prevent future cyber security event."
+              },
+              "4": {
+                "content": "A virtual asset wallet provider shall report any material cybersecurity incident, loss of keys, or unauthorised transaction within 24 hours and shall maintain appropriate insurance cover against theft, loss of keys, or operational failure."
+              }
+            }
+          },
+          "97": {
+            "title": "Cyber security audit report",
+            "subsections": {
+              "1": {
+                "content": "A cyber security audit report shall be duly prepared by the fit and proper person responsible for information security, containing-- (a) the functionality and integrity of the licensee's electronic systems; (b) any identified cyber security risk arising from any virtual asset service carried on or to be carried on, by the licensee; and (c) the cyber security program implemented and proposals for steps for the redress of any inadequacies identified."
+              },
+              "2": {
+                "content": "Where a person acts in contravention of this regulation, the relevant regulatory authority shall take such enforcement action as it deems necessary under the Act and may impose an administrative penalty of three million shillings."
+              }
+            }
+          }
+        }
+      },
+
+      "part_11": {
+        "title": "SAFEKEEPING AND MANAGEMENT OF CONSUMER'S ASSETS",
+        "regulations": {
+          "98": {
+            "title": "Safeguarding of consumer's assets strategy",
+            "content": "Where a distributed ledger technology platform provides for the safeguarding and administration of assets which belong to purchasers and consumers, and in pursuant to section 31 of the Act, a licensee shall ensure that-- (a) satisfactory arrangements are made for that purpose; and (b) clear terms of agreement exist between the consumers and the licensee in relation to the virtual asset."
+          },
+          "99": {
+            "title": "Consumer protection",
+            "subsections": {
+              "1": {
+                "content": "A licensee shall at all times provide safeguards to ensure consumer protection to such standard as the relevant regulatory authority may determine."
+              },
+              "2": {
+                "content": "Without derogating from the generality of sub regulation (1), a licensee shall have business rules, procedures and an effective surveillance programme that ensure that a virtual asset business conducted on or through its distributed ledger technology platform or trading systems is conducted in an orderly manner to provide proper protection to consumers, including monitoring for conduct which may amount to market abuse, financial crime, money laundering, terrorism financing or proliferation financing."
+              },
+              "3": {
+                "content": "In furtherance of the duty to protect the consumers assets under sub regulation (1), a licensee shall-- (a) establish policies, systems and controls for the safekeeping and management of consumer assets; (b) make adequate arrangements to safeguard consumers' ownership rights, mitigate the risk of loss or diminution on the value of consumers' assets; and (c) establish and maintain adequate organizational arrangements for transfer of consumer assets."
+              },
+              "4": {
+                "content": "A licensee shall, as part of its policies, procedures and controls for the safekeeping and management of consumer assets, including the reconciliation of consumer assets, specify how consumer assets are protected against loss or misuse and how consumer assets are segregated so that they are not subject to the claims of the licensee's creditors as envisaged under section 31(d) of the Act."
+              },
+              "5": {
+                "content": "A licensee shall make the policies referred to in sub regulation (3)(a) available in summarized form to its consumers in electronic format, upon request, no later than 2 working days from the date of receipt of the request."
+              },
+              "6": {
+                "content": "A licensee who contravenes this regulation shall be subjected to enforcement action as it deems necessary under the Act, and the relevant regulatory authority may impose an administrative penalty not exceeding three million shillings."
+              }
+            }
+          },
+          "100": {
+            "title": "Consumer service agreement",
+            "subsections": {
+              "1": {
+                "content": "A licensee shall-- (a) enter into a consumer service agreement with every consumer to which it renders services; (b) submit to the relevant regulatory authority a copy of the standard consumer service agreement applicable to each service offered to the public; (c) in the event of handling a dormant account comply with the provisions of Unclaimed Financial Assets Act; and (d) in the case of a deceased persons' account, comply with the Law of Succession Act."
+              },
+              "2": {
+                "content": "A consumer service agreement under sub regulation (1)(a) shall, at minimum include-- (a) a detailed description of the virtual asset services offered; (b) the registration requirements for account opening; (c) the procedures for maintaining a consumer account; (d) the privacy policy of the licensee; (e) the consumer account use and access responsibility; (f) the suspension, termination and freezing of accounts; (g) the dispute resolution and the governing law; (h) the warranties and liability; (i) the indemnity; (j) the exclusions or limitations of the virtual asset service; (k) disclosure and data retention; (l) force majeure; (m) details on how dormant accounts are handled; and (n) details on how accounts of deceased persons are handled."
+              }
+            }
+          },
+          "101": {
+            "title": "Management and safe-keeping of consumer's funds and assets",
+            "subsections": {
+              "1": {
+                "content": "Pursuant to section 24(h) of the Act, a licensee shall open and operate all client account and licensees own accounts in a bank licensed in Kenya."
+              },
+              "2": {
+                "content": "A licensee shall ensure that the total amount and type of consumer assets held for consumers matches the amounts it has agreed to hold."
+              },
+              "3": {
+                "content": "Any transfer undertaken of consumer assets shall be authorised or expressly permitted by the consumer."
+              },
+              "4": {
+                "content": "A licensee shall, following the day on which consumers' funds, other than consumer assets, are received, place those funds by the end of the business day, with a bank or financial institution in accordance with these Regulations."
+              },
+              "5": {
+                "content": "A licensee shall take all necessary measures to ensure that consumers' funds, other than consumer assets, held in accordance with sub regulation (4), are held in an account separate to that which is used to hold funds belonging to the licensee."
+              },
+              "6": {
+                "content": "Where a licensee holds virtual assets-- (a) in one or more omnibus accounts; or (b) under any other arrangement where consumer assets are not held in separate accounts for each individual consumer under that consumer's name, the licensee shall maintain appropriate procedures and up-to-date records in order to identify, at all times, the virtual assets belonging to each consumer and to account for all consumer transactions."
+              },
+              "7": {
+                "content": "A licensee shall have adequate arrangements in place to safeguard the ownership rights of consumers over their consumer assets and prevent the use of those assets for their own account."
+              },
+              "8": {
+                "content": "A licensee shall not use consumer assets for its own account or the account of any other person or consumer of the licensee."
+              },
+              "9": {
+                "content": "A licensee shall take appropriate measures to prevent the unauthorized use of consumer assets for its own account or the account of any other person."
+              },
+              "10": {
+                "content": "A licensee shall have procedures in place to ensure that consumers have a means by which to access their consumer assets."
+              },
+              "11": {
+                "content": "Where a person acts in contravention with this regulation, the relevant regulatory authority shall take such enforcement action as it deems necessary under the Act and may impose an administrative penalty of not more than three million shillings."
+              }
+            }
+          },
+          "102": {
+            "title": "Systems and controls to safe-keep consumer assets",
+            "subsections": {
+              "1": {
+                "content": "A licensee shall ensure that technology used for the purpose of holding consumer assets is reliable, resilient and compatible with the consumer assets being held, where applicable."
+              },
+              "2": {
+                "content": "A licensee, in complying with subregulation (1) shall have regard to-- (a) the impact of the software architecture of the wallets used to hold consumer assets and the interoperability of systems used to hold them; and (b) the systems' ability to ensure that security measures for access and use of private and public keys, hot and cold wallets storage, password protection and encryption, are reliable and effective."
+              },
+              "3": {
+                "content": "Where a person acts in contravention of this regulation, the relevant regulatory authority shall take such enforcement action as it deems necessary under the Act and may impose an administrative penalty of three million shillings."
+              }
+            }
+          },
+          "103": {
+            "title": "Protection from third party claims",
+            "subsections": {
+              "1": {
+                "content": "A licensee shall not grant any security interest, lien or right of set-off to another person over any consumer assets unless it applies directly to the clearing or settlement of such obligations as owed directly by the consumer to whom such security interest, lien or right of set-off claim is against."
+              },
+              "2": {
+                "content": "A licensee shall maintain records of any security interest, lien or right of set-off which it applies under subregulation (1), including any court order, legal proceeding or similar records served upon the licensee, the amount and nature of the consumer assets and the date upon which the obligation was applied."
+              },
+              "3": {
+                "content": "Where a person acts in contravention with this regulation, the relevant regulatory authority shall take such enforcement action as it deems necessary under the Act and may impose an administrative penalty of three million shillings."
+              }
+            }
+          },
+          "104": {
+            "title": "Records and accounts",
+            "subsections": {
+              "1": {
+                "content": "In fulfilling its obligations under these Part, a licensee shall ensure that it maintains accurate and up to date records that are easily accessible by the consumer."
+              },
+              "2": {
+                "content": "A licensee shall make accessible at its office a register and enter in it the following information as appropriate to the relevant consumer-- (a) the name of the consumer; (b) the consumers' rights to its assets; (c) the any movement of consumer asset with reference to instructions received from the consumer."
+              },
+              "3": {
+                "content": "A licensee shall use the register referred to in sub regulation (2) to track, record transactions and ownership of consumer's assets and reconcile the consumer assets on a consumer-by-consumer basis to resolve any discrepancies with consideration to be had to relevant off-chain and on-chain records."
+              }
+            }
+          }
+        }
+      },
+
+      "part_12": {
+        "title": "MARKET CONDUCT AND RELATED OFFENCES",
+        "regulations": {
+          "105": {
+            "title": "Standards of conduct",
+            "subsections": {
+              "1": {
+                "content": "A licensee shall, when conducting a licensed activity-- (a) observe a high standard of integrity and fair dealing; (b) act with due skill, care and diligence; and (c) observe high standards of market conduct."
+              },
+              "2": {
+                "content": "A licensee shall, from time to time, provide to the relevant regulatory authority details of how it promotes and maintains professional conduct as required under sections 20 and 21 of the Act."
+              },
+              "3": {
+                "content": "For purposes of subregulation (2), a licensee shall-- (a) take all the necessary steps to promote and maintain high standards of integrity and fair dealing in the carrying on of a virtual asset business on or through its distributed ledger technology platform or trading systems; and (b) cooperate with the relevant regulatory authority with regard to regulatory matters as the relevant regulatory authority may determine."
+              }
+            }
+          },
+          "106": {
+            "title": "Designation of a virtual asset service",
+            "subsections": {
+              "1": {
+                "content": "The relevant regulatory authority may, by notice, designate a virtual asset service for the purposes of the Act, if in its assessment-- (a) the virtual asset service poses systemic risk; (b) the designation is necessary to protect the interests of the public; or (c) such designation is in the interest of the integrity of the payment system."
+              },
+              "2": {
+                "content": "The notice issued under subsection (1) shall indicate the conditions to be met by the licensee."
+              },
+              "3": {
+                "content": "The relevant regulatory authority may, by notice, withdraw the designation or vary the conditions attached to the designation."
+              },
+              "4": {
+                "content": "Any person who fails to comply with a notice issued under this section shall be guilty of an offence under the Act."
+              }
+            }
+          },
+          "107": {
+            "title": "Consumers' understanding of risk",
+            "subsections": {
+              "1": {
+                "content": "A licensee shall not-- (a) recommend a transaction to a consumer, or effect a transaction with or for him, unless it has taken all reasonable steps to enable the consumer to understand the risks involved; (b) knowingly mislead a consumer on any advantages or disadvantages of a contemplated transaction; (c) promise a return on any investment."
+              },
+              "2": {
+                "content": "A licensee shall give sufficient information to the consumer to ensure that the consumer's decisions are informed."
+              },
+              "3": {
+                "content": "A licensee shall, when making recommendations to a consumer, take all reasonable steps to ensure that the consumer has a proper understanding of-- (a) the nature of the investment; (b) the fees and charges associated with the investment; (c) the risks of the investment; (d) risks related to AML/CFT/CPF; (e) the factors that are likely to affect the performance of the investment; (f) the terms and conditions of the investment; (g) the consequences of departing from the terms and conditions of the investment."
+              },
+              "4": {
+                "content": "Where a licensee-- (a) after giving a consumer an explanation, in writing, is satisfied that the consumer understands the information required to be given under subregulation (3), the licensee shall retain a copy of such explanation in its records; (b) gives an explanation orally, it shall send a written note of the advice to the consumer and retain a copy of the explanation in the consumer's file; (c) is of the opinion that an explanation is not required, because of the consumer's existing knowledge, it shall document that opinion in its records."
+              }
+            }
+          },
+          "108": {
+            "title": "Addressing complaints by consumers",
+            "subsections": {
+              "1": {
+                "content": "A licensee shall, to the satisfaction of the relevant regulatory authority, have in place procedures to address complaints by consumers of its distributed ledger technology platform."
+              },
+              "2": {
+                "content": "The procedures referred to in sub regulation (1) shall include-- (a) effective arrangements for the investigation and resolution of complaints made against the licensee's virtual asset services; (b) establishing and maintaining a register of complaints made against the licensee's virtual asset services and resolutions reached with the purchaser, consumer or consumer; (c) establishing and maintaining a consumer care system in accordance with regulation 109; (d) setting out the process for dealing with complaints, including-- (i) the apportionment of responsibility for the actions that led to the complaint including to persons not specifically named in the complaint; (ii) the timeframe for dealing with a complaint; (iii) the timeframe within which to inform the complainant of progress in dealing with the complaint, which shall not be more than three months; (iv) the available remedial actions in respect of any complaints by the consumer; (v) the procedure for an appeal where the complaint cannot otherwise be resolved."
+              },
+              "3": {
+                "content": "When addressing a complaint from a consumer, a licensee shall-- (a) disclose to a consumer its procedures for handling of complaints. (b) address a complaint from a consumer in a fair, appropriate and timely manner; (c) inform the consumer of the outcome of their complaint; (d) provide appropriate restitution and address the weaknesses in its internal systems that led to the action causing the complaint."
+              },
+              "4": {
+                "content": "A licensee shall keep and maintain the records of the complaints and action taken under this regulation for a minimum of seven years."
+              }
+            }
+          },
+          "109": {
+            "title": "Consumer care system",
+            "subsections": {
+              "1": {
+                "content": "Within six months after commencing the provision of virtual asset services, a licensee shall establish a consumer care system within which its consumers can make inquiries and complaints concerning its services."
+              },
+              "2": {
+                "content": "Prior to establishing a consumer care system under sub regulation (1), the licensee shall-- (a) put in place a clear mechanism to address consumer complaints; (b) provide adequate means for consumers to file complaints; (c) address such complaints within a reasonable period from the time receipt of the complaint; and (d) provide, at all points of service, easily understood information about their complaint handling procedure."
+              }
+            }
+          },
+          "110": {
+            "title": "Deterrence of market abuse",
+            "subsections": {
+              "1": {
+                "content": "A licensee shall have appropriate measures to identify, deter and prevent market abuse, financial crime and money laundering, terrorism financing or proliferation financing on and through its distributed ledger technology platform or systems and report to the relevant regulatory authority any market abuse."
+              },
+              "2": {
+                "content": "Pursuant to sub regulation (1), a licensee shall have rules and procedures to prohibit or prevent any-- (a) transaction intended to create a false appearance of a trading activity or transaction; (b) improper execution of virtual asset transfer or exchange, stablecoin issuance, token issuance, or initial coin offering; (c) transaction intended to assist or conceal any potentially identifiable market abuse or financial crime."
+              }
+            }
+          },
+          "111": {
+            "title": "Outsourcing agreements",
+            "subsections": {
+              "1": {
+                "content": "A licensee may enter into an agreement to outsource its operational functions of provision of virtual asset services."
+              },
+              "2": {
+                "content": "A licensee who intends to outsource its functions under subregulation (1) shall obtain the approval of the relevant regulatory authority at least thirty days before such outsourcing agreement is implemented."
+              },
+              "3": {
+                "content": "For the purposes of this regulation, a licensee shall not outsource its material operational function in such a way as to impair-- (a) the quality of internal control of the licensee; and (b) the ability of the relevant regulatory authority to monitor compliance of the licensee with the Act and these Regulations."
+              },
+              "4": {
+                "content": "Where a licensee outsources a material operational function under this regulation, the licensee shall ensure that-- (a) the outsourcing does not result in the delegation by senior officers of its responsibilities; (b) the relationship and obligations of the licensee to its consumers under this regulation is not altered; (c) the outsourcing contract provides that the relevant regulatory authority can exercise its oversight and supervisory powers under this regulation in respect of the third parties to who functions are outsourced; and (d) the requirements which the licensee is required to comply in order to be licensed and remain so, including any conditions imposed by the relevant regulatory authority are not undermined."
+              },
+              "5": {
+                "content": "For the purpose of sub regulation (3), an operational function shall be regarded as material if a defect or failure in its performance would materially impair-- (a) the continuing compliance of the licensee with the requirements of its licence under these Regulations; (b) its financial performance; or (c) the soundness or the continuity of its virtual asset services."
+              }
+            }
+          },
+          "112": {
+            "title": "Outsourcing of custodial services",
+            "content": "Where a virtual asset exchange outsources custodial services, it shall-- (a) only make use of licensed virtual asset wallet providers licensed under the Act; (b) notify the regulatory authority of the use of other entities for the custody of virtual assets as a material change under section 26 of the Act; (c) disclose to their consumers the terms and conditions associated with such outsourcing arrangements."
+          },
+          "113": {
+            "title": "Agent arrangements",
+            "subsections": {
+              "1": {
+                "content": "A licensee may appoint an agent to provide any of its services on its behalf by entering into an agency agreement: Provided that such services are approved by the relevant regulatory authority."
+              },
+              "2": {
+                "content": "A licensee shall be liable to its consumers for the acts and omissions of its agent."
+              }
+            }
+          },
+          "114": {
+            "title": "Insider trading",
+            "subsections": {
+              "1": {
+                "content": "A person who possesses material non-public information in relation to a virtual asset shall not use that information to acquire or dispose of that virtual asset, or attempt to do so, or encourage or cause another person to deal in that virtual asset."
+              },
+              "2": {
+                "content": "A person who contravenes the provisions of subregulation (1) commits an offence and shall be liable, on conviction, to a fine not exceeding ten million or imprisonment for a term not exceeding five years, or to both."
+              }
+            },
+            "category": "Market conduct offences"
+          },
+          "115": {
+            "title": "Market manipulation",
+            "subsections": {
+              "1": {
+                "content": "No person shall enter into or carry out, directly or indirectly, two or more transactions in virtual assets, which by themselves or in conjunction with any other transaction-- (a) increase, or are likely to increase the price with the intention of inducing another person to purchase, or subscribe for, or to refrain from selling virtual assets issued by the same company or a related company, or such other listed virtual assets; (b) reduce, or are likely to reduce, the price with the intention of inducing another person to sell, or to refrain from purchasing, virtual assets issued by the same company or a related company, or such other listed virtual assets; or (c) stabilize, or are likely to stabilize, the price with the intention of inducing another person to sell, purchase, or subscribe for, or to refrain from selling, purchasing or subscribing for, virtual assets issued by the same company or by a related company, or such other listed virtual assets."
+              },
+              "2": {
+                "content": "A person who contravenes the provisions of subregulation (1) commits an offence and shall be liable, on conviction, to a fine not exceeding ten million or imprisonment for a term not exceeding five years, or to both."
+              }
+            },
+            "category": "Market conduct offences"
+          },
+          "116": {
+            "title": "False trading and market rigging",
+            "subsections": {
+              "1": {
+                "content": "A person shall not create or do anything which is intended or likely to create a false or misleading impression-- (a) of active trading in virtual assets on a virtual asset exchange or token issuance platform; or (b) with respect to the market for, or the price for dealings in, virtual assets traded on the virtual assets exchange or token issuance platform."
+              },
+              "2": {
+                "content": "Without prejudice to the generality of subregulation (1), a false or misleading impression of active trading in virtual assets is created if a person-- (a) enters into or carries out, directly or indirectly, any transaction for the sale or purchase of a virtual asset which does not involve a change in the beneficial ownership of the virtual asset, or offers to do so; or (b) offers to sell a virtual asset at a price which is substantially the same as the price at which he has made or proposes to make, or knows that an associate of his has made or proposes to make an offer to buy the same or substantially the same number of virtual assets."
+              },
+              "3": {
+                "content": "A person who contravenes the provisions of sub regulation (1) commits an offence and shall be liable, on conviction, to a fine not exceeding ten million or imprisonment for a term not exceeding five years, or to both."
+              }
+            },
+            "category": "Market conduct offences"
+          },
+          "117": {
+            "title": "Fraudulently inducing trading in virtual assets",
+            "subsections": {
+              "1": {
+                "content": "A person shall not induce or attempts to induce another person to subscribe for, sell or purchase virtual assets by-- (a) making or publishing any statement, promise or forecast that is false, misleading or deceptive; (b) concealing any material facts; (c) making or publishing any statement, promise or forecast which is misleading, false or deceptive; or (d) recording or storing in, or by means of, any mechanical, electrical or other device, information that is false or misleading."
+              },
+              "2": {
+                "content": "A person who contravenes the provisions of subregulation (1) commits an offence and shall be liable, on conviction, to a fine not exceeding ten million or imprisonment for a term not exceeding five years, or to both."
+              }
+            },
+            "category": "Market conduct offences"
+          },
+          "118": {
+            "title": "Use of manipulative devices",
+            "subsections": {
+              "1": {
+                "content": "A person shall not, directly or indirectly, in connection with any transaction with any other person involving the subscription, purchase or sale of virtual assets-- (a) uses any device, scheme or artifice to defraud the other person; (b) engages in any act, practice or course of business which is fraudulent, deceptive or likely to defraud or deceive that other person (c) makes any false statement in relation to a matter or omits to state a material fact that is necessary in order to make the statements made in the light of the circumstances under which they were made, not misleading."
+              },
+              "2": {
+                "content": "A person who contravenes the provisions of subregulation (1) commits an offence and shall be liable, on conviction, to a fine not exceeding ten million or imprisonment for a term not exceeding five years, or to both."
+              }
+            },
+            "category": "Market conduct offences"
+          },
+          "119": {
+            "title": "False or misleading statements inducing virtual assets transactions",
+            "subsections": {
+              "1": {
+                "content": "No person shall, directly or indirectly, for the purpose of inducing the subscription for, sale or purchase of virtual assets by another person of any company, or of any other virtual assets, or to maintain, increase, reduce or stabilize the price of such virtual assets, makes with respect to the virtual assets-- (a) any statement which is, at the time and in light of the circumstances in which it is made, false or misleading with respect to any material fact and which that person knows or reasonably ought to know is false or misleading; or (b) any statement which is, by reason of the omission of a material fact, rendered false or misleading and which that person knows or ought to know is rendered false or misleading by reason of omission of that fact."
+              },
+              "2": {
+                "content": "A person who contravenes the provisions of subregulation (1) commits an offence and shall be liable, on conviction, to a fine not exceeding ten million or imprisonment for a term not exceeding five years, or to both."
+              }
+            },
+            "category": "Market conduct offences"
+          },
+          "120": {
+            "title": "Front-running",
+            "subsections": {
+              "1": {
+                "content": "No person who has insider information on consumer orders with a price differential, or is aware of such orders, shall effect an own account transaction in the virtual assets concerned or in any related investments directly or through any other person, to take advantage of the price differential before the consumer order is executed."
+              },
+              "2": {
+                "content": "A person who contravenes or facilitates the contravention of the provisions of subregulation (1) commits an offence and shall be liable, on conviction, to a fine not exceeding ten million or imprisonment for a term not exceeding five years, or to both."
+              }
+            },
+            "category": "Market conduct offences"
+          },
+          "121": {
+            "title": "Churning",
+            "subsections": {
+              "1": {
+                "content": "A licensee shall not-- (a) deal or arrange a deal in the exercise of discretion for any consumer; or (b) advise a consumer to deal, if the dealing could in the circumstances be reasonably considered as too frequent or too large having regard to the trading activities, investment objectives, size and operations of such consumer."
+              },
+              "2": {
+                "content": "A person who contravenes or facilitates the contravention of the provisions of subregulation (1) commits an offence and shall be liable, on conviction, to a fine not exceeding ten million or imprisonment for a term not exceeding five years, or to both."
+              }
+            },
+            "category": "Market conduct offences"
+          },
+          "122": {
+            "title": "Cold Calling",
+            "subsections": {
+              "1": {
+                "content": "A licensee shall not, for the purposes of soliciting business relating to a regulated activity, make unsolicited telephone calls or attend at any property, unless it has established and monitors the implementation of operational procedures to-- (a) maintain a Do-Not-Call list of prospects that is updated whenever any contacted person requests not to be called again; (b) train staff on the use of the Do-Not-Call list; (c) limit the making calls to between 8 a.m. and 5 p.m; (d) oblige the callers to state their first and last names at the commencement of the call; (e) oblige the callers to state the firm's name and address and the fact that it is licensed by the relevant regulatory authority at the commencement of the call; (f) oblige the caller to provide a detailed over view of any product being marketed by the licensee prior to soliciting any off; (g) record and avail copies of all recordings to the relevant regulatory authority for inspection."
+              },
+              "2": {
+                "content": "A person who contravenes or facilitates the contravention of the provisions of subregulation (1) commits an offence and shall be liable, on conviction, to a fine not exceeding ten million or imprisonment for a term not exceeding five years, or to both."
+              }
+            },
+            "category": "Market conduct offences"
+          }
+        }
+      },
+
+      "part_13": {
+        "title": "ADVERTISEMENTS AND PROMOTIONS OF VIRTUAL ASSETS AND PRODUCTS",
+        "regulations": {
+          "123": {
+            "title": "Prohibition",
+            "subsections": {
+              "1": {
+                "content": "A person shall not carry on, or purport to carry on, the advertisement of-- (a) virtual asset services; or (b) the issue or the promotion of virtual assets, including initial coin offerings and non-fungible tokens, in or from Kenya, unless that person complies with the requirements of these Regulations."
+              },
+              "2": {
+                "content": "These Regulations shall not apply to the following persons and activities-- (a) advertisement by ministry, department, authorities or agencies of the Government; (b) persons engaged in the business of printing commercial and promotional materials for licensees or promoters; and (c) persons responsible for securing the placement of an advertisement: Provided they are not responsible for the contents thereof."
+              },
+              "3": {
+                "content": "Any person acting on behalf of a licensee or promoter shall comply with these Regulations, and the licensee or promoter shall be liable and responsible for such persons as if the licensee or promoter had undertaken the relevant advertising itself."
+              },
+              "4": {
+                "content": "A person who acts in contravention with this regulation commits an offence and is liable on conviction to a fine not exceeding three million shillings or one year imprisonment, or to both."
+              }
+            }
+          },
+          "124": {
+            "title": "General requirements for advertisement",
+            "content": "Advertisements shall-- (a) be fair, clear, complete, concise, unambiguous and unbiased, and shall not be false, misleading nor deceptive; (b) contain information that is timely and consistent with any relevant virtual assets, including initial coin offerings or virtual asset services; (c) convey an equitable message in respect of the returns, benefits and risks associated with the relevant virtual asset, including initial coin offerings or virtual asset services; (d) be clearly identifiable and the media chosen for an advertisement shall be suitable for that advertisement with due consideration as to the target market and or class of consumers; (e) not lure or induce consumers into malicious virtual asset services and offerings; (f) not facilitate illicit actors or high-risk virtual asset activities."
+          },
+          "125": {
+            "title": "Content of advertisement",
+            "content": "An advertisement shall contain the following information-- (a) the name of the licensee; (b) a description of the virtual asset service offered; (c) a description of the virtual asset; (d) details of fees, charges, and commissions; (e) warning statements informing investors of risks; (f) how and where to access the relevant whitepaper or offering document; (g) regulatory status and licence number of the licensee; (h) contact information of the licensee; (i) a clear indication that the advertisement is a promotional communication."
+          },
+          "126": {
+            "title": "Performance information",
+            "content": "Where an advertisement contains information on historical or projected performance of a virtual asset or service, the licensee shall ensure that-- (a) performance data is sourced from verifiable and reliable data; (b) the basis and assumptions of any projection are clearly stated; (c) past performance is not presented as an indicator of future results; (d) any comparison with other virtual assets or financial products is fair and meaningful."
+          },
+          "127": {
+            "title": "Fees, costs and commissions",
+            "content": "An advertisement that refers to fees, costs, or commissions shall disclose-- (a) the full range of applicable fees including transaction fees, withdrawal fees, custody fees, and conversion fees; (b) whether fees are fixed or variable; (c) any additional costs that may be incurred by the consumer."
+          },
+          "128": {
+            "title": "Risks and warning disclosures",
+            "content": "An advertisement shall include appropriate risk warnings, including-- (a) that the value of virtual assets may fluctuate significantly; (b) that virtual assets are not legal tender and are not backed by the government; (c) that past performance is not indicative of future results; (d) that virtual assets may be subject to cyber security risks; (e) that consumers may lose the entirety of their investment."
+          },
+          "129": {
+            "title": "Duty of person making advertisement",
+            "content": "A person making an advertisement shall-- (a) ensure accuracy and completeness of all information contained in the advertisement; (b) retain records of all advertisements for a minimum of seven years; (c) ensure that the advertisement has been reviewed and approved by the licensee's compliance function prior to publication; (d) withdraw or correct any advertisement that is or becomes misleading."
+          },
+          "130": {
+            "title": "Duties of third parties making advertisements",
+            "content": "A third party engaged in making advertisements on behalf of a licensee shall-- (a) comply with all applicable provisions of these Regulations; (b) act in accordance with the instructions and guidelines provided by the licensee; (c) not make any representations that exceed the scope of the licensee's approval; (d) promptly notify the licensee of any consumer complaints or inquiries received in relation to the advertisement."
+          },
+          "131": {
+            "title": "Internet advertisement",
+            "content": "An advertisement published on the internet shall-- (a) comply with all requirements applicable to advertisements under these Regulations; (b) clearly identify the licensee and its regulatory status; (c) be accessible and legible across commonly used devices; (d) include a hyperlink to the licensee's current whitepaper or offering document, where applicable; (e) not use pop-ups, auto-play, or other intrusive methods in a manner that misleads consumers."
+          },
+          "132": {
+            "title": "Prohibited internet advertising and marketing practices",
+            "content": "The following internet advertising and marketing practices are prohibited-- (a) use of misleading domain names, metatags, or search engine optimization techniques to attract consumers under false pretenses; (b) publishing testimonials or endorsements that are fabricated, misleading, or not clearly identified as sponsored content; (c) use of automated bots or artificial engagement to promote virtual asset services or products; (d) targeting minors with virtual asset advertisements; (e) any practice that obscures the true nature or risks of the virtual asset service or product being promoted."
+          },
+          "133": {
+            "title": "Record keeping",
+            "content": "A licensee shall maintain records of all advertisements and promotional materials for a period of not less than seven years, including-- (a) the content of the advertisement; (b) the media and platforms on which it was published; (c) the dates of publication and withdrawal; (d) the approval by the compliance function; (e) any consumer complaints received in relation to the advertisement."
+          }
+        }
+      },
+
+      "part_14": {
+        "title": "FREEZING AND SEIZURE ORDERS",
+        "regulations": {
+          "134": {
+            "title": "Interpretation of this Part",
+            "content": "In this Part, terms relating to freezing and seizure orders shall have meanings consistent with the provisions of the Proceeds of Crime and Anti-Money Laundering Act, the Prevention of Terrorism Act, and any other applicable written law governing the freezing, seizure, and confiscation of assets in Kenya."
+          },
+          "135": {
+            "title": "Freezing and seizure of virtual assets",
+            "content": "A licensee shall comply with any freezing or seizure order issued by a competent authority or court of law in Kenya in relation to virtual assets held or controlled by the licensee on behalf of a consumer or any other person, and shall implement the order promptly and in accordance with the terms specified therein."
+          },
+          "136": {
+            "title": "General freezing and seizure orders: Obligations of licensee",
+            "content": "Upon receipt of a freezing or seizure order, a licensee shall-- (a) immediately take all necessary steps to give effect to the order; (b) not dispose of, transfer, convert, or otherwise deal with the virtual assets that are the subject of the order; (c) maintain complete records of all actions taken in compliance with the order; (d) promptly notify the relevant regulatory authority of the receipt of the order and the steps taken to comply."
+          },
+          "137": {
+            "title": "Freezing orders: Obligations of licensee",
+            "content": "Where a freezing order is issued in respect of virtual assets held by a licensee, the licensee shall-- (a) prevent any withdrawal, transfer, or disposal of the frozen virtual assets; (b) ensure that access to the frozen virtual assets is restricted to authorized persons only; (c) maintain the frozen virtual assets in a manner that preserves their value and integrity; (d) provide periodic reports to the issuing authority on the status of the frozen virtual assets, as may be required."
+          },
+          "138": {
+            "title": "Preservation of value",
+            "content": "A licensee shall take all reasonable measures to preserve the value of virtual assets that are subject to a freezing or seizure order, including-- (a) maintaining the virtual assets in secure custody; (b) preventing any actions that may diminish the value of the virtual assets; (c) seeking guidance from the relevant regulatory authority or the issuing court where the value of the virtual assets is at risk due to market conditions or technical factors."
+          },
+          "139": {
+            "title": "Seizure orders: obligations to licensee",
+            "content": "Where a seizure order is issued in respect of virtual assets, the licensee shall-- (a) transfer custody or control of the seized virtual assets to the designated authority or custodian as specified in the order; (b) provide all necessary information and technical assistance to facilitate the seizure; (c) maintain detailed records of the transfer and any related communications."
+          },
+          "140": {
+            "title": "Custody and management of seized virtual assets",
+            "content": "Virtual assets seized pursuant to an order shall be held in custody by the designated authority or custodian in a manner that-- (a) ensures the security and integrity of the virtual assets; (b) preserves the value of the virtual assets to the greatest extent practicable; (c) maintains a clear chain of custody with appropriate documentation; (d) complies with any directions issued by the court or competent authority regarding the management or disposal of the seized virtual assets."
+          },
+          "141": {
+            "title": "Offence of failure to comply",
+            "content": "A licensee or any person who fails to comply with a freezing or seizure order issued under this Part commits an offence and shall be liable to enforcement action under the Act, including administrative penalties and any other sanctions as provided for under applicable law."
+          }
+        }
+      },
+
+      "part_15": {
+        "title": "GENERAL PROVISIONS",
+        "regulations": {
+          "142": {
+            "title": "Establishment of the Coordination Committee",
+            "content": "There is established a Coordination Committee whose membership shall be as set out in the Sixth Schedule to these Regulations, for the purposes of coordinating the regulatory and supervisory activities of the relevant regulatory authorities under the Act and these Regulations."
+          },
+          "143": {
+            "title": "Mandate of the Coordination Committee",
+            "content": "The Coordination Committee shall-- (a) facilitate cooperation, coordination and information sharing among the relevant regulatory authorities; (b) promote consistency in the interpretation and application of the Act and these Regulations; (c) advise the Cabinet Secretary on matters relating to virtual asset regulation and policy; (d) coordinate joint supervisory actions and enforcement activities where multiple regulatory authorities are involved; (e) address any regulatory overlaps or gaps that may arise in the supervision of virtual asset service providers."
+          },
+          "144": {
+            "title": "Conduct of business of the Coordination Committee",
+            "content": "The Coordination Committee shall determine its own rules of procedure for the conduct of its business, including the frequency of meetings, quorum requirements, decision-making processes, and any other matters necessary for the effective discharge of its mandate."
+          },
+          "145": {
+            "title": "Notice to penalise",
+            "content": "Before imposing any administrative penalty under these Regulations, the relevant regulatory authority shall give the licensee or person concerned written notice of its intention to impose the penalty, specifying the grounds for the proposed penalty, the amount of the penalty, and affording the licensee or person an opportunity to make representations within such period as may be specified in the notice."
+          },
+          "146": {
+            "title": "Voluntary liquidation",
+            "content": "A licensee that wishes to voluntarily liquidate its business shall-- (a) notify the relevant regulatory authority in writing of its intention to liquidate; (b) obtain the approval of the relevant regulatory authority before commencing the liquidation process; (c) ensure that all consumer assets are returned to the respective consumers or transferred to another licensed virtual asset service provider; (d) discharge all outstanding liabilities and obligations; (e) comply with any directions issued by the relevant regulatory authority to protect the interests of consumers and creditors; (f) submit a final report to the relevant regulatory authority upon completion of the liquidation process."
+          },
+          "147": {
+            "title": "Involuntary liquidation",
+            "content": "The relevant regulatory authority may, where it considers it necessary for the protection of consumers or the stability of the financial system, petition a court of competent jurisdiction for the involuntary liquidation of a licensee, and such proceedings shall be conducted in accordance with the applicable laws of Kenya governing insolvency and winding up of companies."
+          }
+        }
+      }
+    },
+
+    "schedules": {
+      "first_schedule": {
+        "title": "FIRST SCHEDULE",
+        "description": "Fees payable",
+        "reference": "Regulation 4"
+      },
+      "second_schedule": {
+        "title": "SECOND SCHEDULE",
+        "description": "Application form for virtual asset service provider licence",
+        "reference": "Regulation 5"
+      },
+      "third_schedule": {
+        "title": "THIRD SCHEDULE",
+        "description": "Contents of a business plan",
+        "reference": "Regulation 5(2)(b)"
+      },
+      "fourth_schedule": {
+        "title": "FOURTH SCHEDULE",
+        "description": "Fit and proper requirements",
+        "reference": "Regulations 5(2)(c), 41(2)(a)"
+      },
+      "fifth_schedule": {
+        "title": "FIFTH SCHEDULE",
+        "description": "Capital, shareholding and liquidity requirements",
+        "reference": "Regulations 5(2)(h), 82"
+      },
+      "sixth_schedule": {
+        "title": "SIXTH SCHEDULE",
+        "description": "Membership of the coordination committee",
+        "reference": "Regulation 142"
+      }
+    }
+  }
 }
